@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1085</width>
+    <height>642</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>450</width>
+    <height>450</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Class Schedulizer</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QStackedWidget" name="sWidgetMain">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="loginPage">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <spacer name="vSpacer1LogInPage">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Expanding</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget1LogInPage" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <spacer name="hSpacer1LogInPage">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Expanding</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QWidget" name="widgetLogInWidgetFrame" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>400</width>
+              <height>400</height>
+             </size>
+            </property>
+            <widget class="QPushButton" name="btnExit">
+             <property name="geometry">
+              <rect>
+               <x>210</x>
+               <y>350</y>
+               <width>141</width>
+               <height>42</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Exit</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="btnLogIn">
+             <property name="geometry">
+              <rect>
+               <x>280</x>
+               <y>280</y>
+               <width>71</width>
+               <height>42</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>LogIn</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="txtBoxPassword">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>210</y>
+               <width>321</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="echoMode">
+              <enum>QLineEdit::Password</enum>
+             </property>
+             <property name="readOnly">
+              <bool>false</bool>
+             </property>
+             <property name="placeholderText">
+              <string>Password</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="txtBoxUName">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>170</y>
+               <width>321</width>
+               <height>42</height>
+              </rect>
+             </property>
+             <property name="placeholderText">
+              <string>Username</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="btnSignUp">
+             <property name="geometry">
+              <rect>
+               <x>130</x>
+               <y>280</y>
+               <width>141</width>
+               <height>42</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Create New Account</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="lblLogInIcon">
+             <property name="geometry">
+              <rect>
+               <x>120</x>
+               <y>0</y>
+               <width>141</width>
+               <height>121</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>logIn Icon Image...</string>
+             </property>
+            </widget>
+           </widget>
+          </item>
+          <item>
+           <spacer name="hSpacer2LogInPage">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Expanding</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>50</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <spacer name="vSpacer2LogInPage">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Expanding</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>10</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="signUpPage">
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>280</y>
+         <width>101</width>
+         <height>42</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SignUp page</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="userPage">
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>330</y>
+         <width>101</width>
+         <height>42</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>user page</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="inputPage">
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>300</y>
+         <width>101</width>
+         <height>42</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>input page</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="outputPage">
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>270</y>
+         <width>101</width>
+         <height>42</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>output page</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
