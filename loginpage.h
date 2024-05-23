@@ -8,7 +8,7 @@
 
 class LogInPage : public StackedWidgetMain
 {
-private:
+protected:
     QWidget* logInPage;
 
 public slots:

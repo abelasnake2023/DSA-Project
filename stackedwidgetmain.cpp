@@ -1,4 +1,5 @@
 #include "stackedwidgetmain.h"
+#include "widget.h"
 
 
 StackedWidgetMain::StackedWidgetMain(QStackedWidget* sWidgetMain) {

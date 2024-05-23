@@ -3,6 +3,9 @@
 
 #include <QWidget>
 #include "loginpage.h"
+#include "signuppage.h"
+#include "inputpage.h"
+#include "userpage.h"
 #include <QApplication>
 
 
@@ -19,13 +22,24 @@ class Widget : public QWidget
 private:
     Ui::Widget *ui;
     LogInPage* logInPage;
+    SignUpPage* signUpPage;
+    UserPage* userPage;
+    InputPage* inputPage;
+
 
     // private methods
     void structuralDesign();
+    void initialOverallWork();
     void eventConnectionLogInPage();
+    void eventConnectionSignUpPage();
+    void eventConnectionUserPage();
+    void eventConnectionInputPage();
 
 public:
+    static Ui::Widget *anotherUiPointer;
     Widget(QWidget *parent = nullptr);
     ~Widget();
 };
+
+
 #endif // WIDGET_H

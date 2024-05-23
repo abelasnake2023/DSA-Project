@@ -256,15 +256,81 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/BackEnd_C++/BackTracking/BackTrackingRepeatingPermutation.h",
+			"MU",
+			"EPDHY2G7AD/moc_BackTrackingRepeatingPermutation.cpp",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/BackEnd_C++/BackTracking/CSPRepeatingPermutation.h",
+			"MU",
+			"EPDHY2G7AD/moc_CSPRepeatingPermutation.cpp",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/BackEnd_C++/InputPage/CreateSchedule/Validate.h",
+			"MU",
+			"7MA24ACPOK/moc_Validate.cpp",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/Stack/NodeStack.h",
+			"MU",
+			"XFI6PRU5SX/moc_NodeStack.cpp",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/Stack/Stack.h",
+			"MU",
+			"XFI6PRU5SX/moc_Stack.cpp",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/DepBox.h",
+			"MU",
+			"EWIEGA46WW/moc_DepBox.cpp",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/createschedulepage.h",
+			"MU",
+			"EWIEGA46WW/moc_createschedulepage.cpp",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/deppage.h",
+			"MU",
+			"EWIEGA46WW/moc_deppage.cpp",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/inputpage.h",
+			"MU",
+			"EWIEGA46WW/moc_inputpage.cpp",
+			null
+		],
+		[
 			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/loginpage.h",
 			"MU",
 			"EWIEGA46WW/moc_loginpage.cpp",
 			null
 		],
 		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/signuppage.h",
+			"MU",
+			"EWIEGA46WW/moc_signuppage.cpp",
+			null
+		],
+		[
 			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/stackedwidgetmain.h",
 			"MU",
 			"EWIEGA46WW/moc_stackedwidgetmain.cpp",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/userpage.h",
+			"MU",
+			"EWIEGA46WW/moc_userpage.cpp",
 			null
 		],
 		[
@@ -346,6 +412,31 @@
 	"SOURCES" : 
 	[
 		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/BackEnd_C++/InputPage/CreateSchedule/Validate.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/DepBox.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/createschedulepage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/deppage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/inputpage.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/loginpage.cpp",
 			"MU",
 			null
@@ -356,7 +447,17 @@
 			null
 		],
 		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/signuppage.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/stackedwidgetmain.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/userpage.cpp",
 			"MU",
 			null
 		],

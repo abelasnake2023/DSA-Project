@@ -1,7 +1,9 @@
 <RCC>
     <qresource prefix="/">
-        <file>Hookmark.qss</file>
         <file>appIcon.png</file>
         <file>logInIcon.png</file>
+        <file>Hookmark.png</file>
+        <file>Hookmark.qss</file>
+        <file>orangeSquare.png</file>
     </qresource>
 </RCC>

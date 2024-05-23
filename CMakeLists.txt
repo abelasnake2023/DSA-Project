@@ -26,6 +26,18 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         stackedwidgetmain.h stackedwidgetmain.cpp
         external_resouces.qrc
         loginpage.h loginpage.cpp
+        widget.cpp
+        DepBox.h
+        DepBox.cpp
+        inputpage.h inputpage.cpp
+        createschedulepage.h createschedulepage.cpp
+        deppage.h deppage.cpp
+        signuppage.h signuppage.cpp
+        userpage.h userpage.cpp
+        BackEnd_C++/InputPage/CreateSchedule/Validate.cpp BackEnd_C++/InputPage/CreateSchedule/Validate.h
+        BackEnd_C++/Library/DataStructures/Stack/NodeStack.h BackEnd_C++/Library/DataStructures/Stack/Stack.h
+        BackEnd_C++/BackTracking/BackTrackingRepeatingPermutation.h BackEnd_C++/BackTracking/CSPRepeatingPermutation.h
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Class_Schedulizer APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
