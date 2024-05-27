@@ -1,12 +1,12 @@
 #include "createschedulepage.h"
 
 
-
+QTableWidget* CreateSchedulePage::staticTblScheduleTableStruct = nullptr;
+ScheduleTableInfo* CreateSchedulePage::staticSchTblInfo = nullptr;
 CreateSchedulePage::CreateSchedulePage(QStackedWidget* sWidgetInputPage, QStackedWidget* sWidgetCreateSchedule)
     // to initialize Backend attribute
     :  CreateSchedulePage()
 {
-    this->delQTableWidgetItem = new Stack<QTableWidgetItem*>();
     this->sWidgetInputPage = sWidgetInputPage;
     this->sWidgetCreateSchedule = sWidgetCreateSchedule;
 
@@ -22,13 +22,9 @@ CreateSchedulePage::CreateSchedulePage(QStackedWidget* sWidgetInputPage, QStacke
 }
 CreateSchedulePage::CreateSchedulePage() {
     this->val = new Validate();
+    this->schTblInfo = nullptr;
 }
-
-
 CreateSchedulePage::~CreateSchedulePage() {
-
-    delete this->delQTableWidgetItem;
-    this->delQTableWidgetItem = nullptr;
     delete sWidgetCreateSchedule;
     this->sWidgetCreateSchedule = nullptr;
     delete btnBackScheduleTimeInterval;
@@ -63,16 +59,10 @@ CreateSchedulePage::~CreateSchedulePage() {
     // back end C++
     delete this->val;
     this->val = nullptr;
+    delete this->schTblInfo;
+    this->schTblInfo = nullptr;
 }
 
-
-
-void CreateSchedulePage::deleteUnusedQTableWidgetItem() {
-    while(this->delQTableWidgetItem->getSize() > 0) {
-        auto toDel = this->delQTableWidgetItem->pop();
-        delete toDel;
-    }
-}
 
 
 void CreateSchedulePage::setAllItsWidget(
@@ -104,6 +94,8 @@ void CreateSchedulePage::setAllItsWidget(
     this->tblScheduleTableStruct = tblScheduleTableStruct;
     this->tblPeriodTimeInterval = tblPeriodTimeInterval;
 
+    staticTblScheduleTableStruct = this->tblScheduleTableStruct;
+
 
     // Event connection for Schedule Time Interval Page
       connect(this->btnSetTimeInterval, &QPushButton::clicked, this, &CreateSchedulePage::on_btnSetTimeInterval);
@@ -116,6 +108,7 @@ void CreateSchedulePage::setAllItsWidget(
       connect(this->btnSaveScheduleTableStruct, &QPushButton::clicked, this, &CreateSchedulePage::on_btnSaveScheduleTableStruct);
       connect(this->btnRemoveScheduleTableStruct, &QPushButton::clicked, this, &CreateSchedulePage::on_btnRemoveScheduleTableStruct);
 }
+
 
 
 void CreateSchedulePage::on_btnSetTimeInterval() {
@@ -183,7 +176,6 @@ void CreateSchedulePage::on_btnSetTimeInterval() {
         return;
     }
 }
-
 void CreateSchedulePage::on_btnAddPeriod() {
     QTime time = this->tEditPeriodStartingTime->time();
     // Convert the time to 24-hour format string
@@ -221,17 +213,28 @@ void CreateSchedulePage::on_btnAddPeriod() {
 
     QTableWidgetItem* qtiCol1 = new QTableWidgetItem(col1);
     QTableWidgetItem* qtiCol2 = new QTableWidgetItem(col2);
-    this->delQTableWidgetItem->push(qtiCol1);
-    this->delQTableWidgetItem->push(qtiCol2);
     this->tblPeriodTimeInterval->setItem(rowToInsert, 0, qtiCol1);
     this->tblPeriodTimeInterval->setItem(rowToInsert, 1, qtiCol2);
     this->tblPeriodTimeInterval->resizeColumnsToContents();
 }
-
 void CreateSchedulePage::on_btnNext() {
-    this->sWidgetCreateSchedule->setCurrentIndex(this->pageIndexCreateSchedule["scheduleTableStructPage"]);
-}
+    if(!this->val->validToChangeToPageScheduleTableStruct()) {
+        this->sWidgetCreateSchedule->setCurrentIndex(this->pageIndexCreateSchedule["scheduleTableStructPage"]); // change to next page.
+        return;
+    }
 
+    // Construct the the table found next page:
+    if(this->schTblInfo != nullptr) {
+        delete this->schTblInfo;
+    }
+
+    QString timeIntervalIn0000Form  = this->val->minTo24Hour(this->val->getTimeInterval());
+    this->schTblInfo = new ScheduleTableInfo(this->val->getPeriodCounter(), timeIntervalIn0000Form.toInt(), this->allValueOfCol2());
+    this->schTblInfo->constructSchTable(this->tblScheduleTableStruct);
+    staticSchTblInfo = this->schTblInfo;
+
+    this->sWidgetCreateSchedule->setCurrentIndex(this->pageIndexCreateSchedule["scheduleTableStructPage"]); // change to next page.
+}
 void CreateSchedulePage::on_btnBack() {
     try {
         // enable input for the time interval input
@@ -248,7 +251,6 @@ void CreateSchedulePage::on_btnBack() {
         // Clear the table and Clear the this->val object
         delete this->val;
         this->val = new Validate();
-        this->deleteUnusedQTableWidgetItem();
         this->tblPeriodTimeInterval->setRowCount(0);
     }
     catch(const std::exception& ex) {
@@ -266,7 +268,6 @@ void CreateSchedulePage::on_btnBack() {
             // Clear the table and Clear the this->val object
             delete this->val;
             this->val = new Validate();
-            this->deleteUnusedQTableWidgetItem();
             this->tblPeriodTimeInterval->setRowCount(0);
         }
         catch(const std::exception& ex2) {
@@ -279,11 +280,38 @@ void CreateSchedulePage::on_btnBack() {
 void CreateSchedulePage::on_btnBackScheduleTableStruct() {
     this->sWidgetCreateSchedule->setCurrentIndex(this->pageIndexCreateSchedule["scheduleTimeIntervalPage"]);
 }
-
+void CreateSchedulePage::on_btnRemoveScheduleTableStruct() { // removing period(single cell or the whole day)
+    try {
+        this->schTblInfo->removePeriodOrSchId(this->tblScheduleTableStruct);
+    }
+    catch(const std::exception& ex) {
+        qDebug() << "Error: void CreateSchedulePage::on_btnRemoveScheduleTableStruct()" << "\n";
+        qDebug() << ex.what() << "\n\n";
+    }
+}
 void CreateSchedulePage::on_btnSaveScheduleTableStruct() {
     this->sWidgetInputPage->setCurrentIndex(this->pageIndexInputPage["depPage"]);
 }
 
-void CreateSchedulePage::on_btnRemoveScheduleTableStruct() { // removing period(single cell or the whole day)
 
+
+
+
+std::string* CreateSchedulePage::allValueOfCol2() {
+    std::string* strCol2 = new std::string[this->tblPeriodTimeInterval->rowCount()]; // since it will be passed to ScheduleTableInfo object,
+    // ScheduleTableInfo object will delete it.
+    int column = 1;
+    for (int row = 0; row < this->tblPeriodTimeInterval->rowCount(); ++row) {
+        QTableWidgetItem *item = this->tblPeriodTimeInterval->item(row, column);
+        strCol2[row] = item->text().toStdString();
+    }
+
+    return strCol2;
+}
+
+ScheduleTableInfo* CreateSchedulePage::getSchTblInfo() {
+    return staticSchTblInfo;
+}
+QTableWidget* CreateSchedulePage::getTblScheduleTableStruct() {
+    return CreateSchedulePage::staticTblScheduleTableStruct;
 }

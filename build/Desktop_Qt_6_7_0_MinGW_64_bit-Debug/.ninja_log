@@ -1,28 +1,140 @@
 # ninja log v5
-15	196	7380169170435496	Class_Schedulizer_autogen/timestamp	89736df79a60ea61
-1575	6742	7380155128945442	CMakeFiles/Class_Schedulizer.dir/stackedwidgetmain.cpp.obj	ac59a7661c7cc256
-15	196	7380169170435496	Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
-188	3298	7379959962319154	CMakeFiles/Class_Schedulizer.dir/userpage.cpp.obj	eacdacb45e3a4c09
-15	196	7380169170435496	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/timestamp	89736df79a60ea61
+11	1222	7384802493103775	Class_Schedulizer_autogen/timestamp	89736df79a60ea61
+1232	6712	7384802548775263	CMakeFiles/Class_Schedulizer.dir/stackedwidgetmain.cpp.obj	ee5da416d587bc1b
+11	1222	7384802493103775	Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
+4420	14565	7384563203791132	CMakeFiles/Class_Schedulizer.dir/BackEnd_C++/InputPage/CreateSchedule/scheduletableinfo.cpp.obj	9653f5208652b2ab
+259	6812	7384044531236481	CMakeFiles/Class_Schedulizer.dir/userpage.cpp.obj	1c7fc6c51a81fd53
+11	1222	7384802493103775	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/timestamp	89736df79a60ea61
+11	1222	7384802493103775	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
+1590	4937	7384152192621194	CMakeFiles/Class_Schedulizer.dir/customqcheckboxforschtable.cpp.obj	39309df5d93ae31e
 317	891	7379888233571835	CMakeFiles/Class_Schedulizer.dir/BackEnd/Try.cpp.obj	9e1c1088df714eb9
-15	196	7380169170435496	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
-1561	6876	7380155130315489	CMakeFiles/Class_Schedulizer.dir/Class_Schedulizer_autogen/mocs_compilation.cpp.obj	ca5436f49b4301bd
-1566	6998	7380155131545467	CMakeFiles/Class_Schedulizer.dir/main.cpp.obj	6fc226edf70e12e4
-206	2998	7380169198413199	CMakeFiles/Class_Schedulizer.dir/widget.cpp.obj	caa29e6fc5bbe1f0
-2999	3453	7380169202922438	Class_Schedulizer.exe	247874a2c53f7da6
+1248	6988	7384802551503593	CMakeFiles/Class_Schedulizer.dir/Class_Schedulizer_autogen/mocs_compilation.cpp.obj	92ecc778151c47c7
+1483	1773	7384722300068909	CMakeFiles/Class_Schedulizer.dir/sectionbox.cpp.obj	194f4421d07cb33d
+1227	6882	7384802550463497	CMakeFiles/Class_Schedulizer.dir/main.cpp.obj	8016e1b792302afb
+1223	7429	7384802555866638	CMakeFiles/Class_Schedulizer.dir/widget.cpp.obj	a3557c305b951f11
+7430	8152	7384802563100709	Class_Schedulizer.exe	b884e7849c8ae375
 232	307	7379888227671873	Class_Schedulizer_autogen/EWIEGA46WW/qrc_external_resouces.cpp	4a9446e0a3a4e5ab
 232	307	7379888227671873	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/EWIEGA46WW/qrc_external_resouces.cpp	4a9446e0a3a4e5ab
-322	470	7379888229374539	CMakeFiles/Class_Schedulizer.dir/Class_Schedulizer_autogen/EWIEGA46WW/qrc_external_resouces.cpp.obj	8140686dce1a515
-883	4119	7379919170988363	CMakeFiles/Class_Schedulizer.dir/loginpage.cpp.obj	5c841719c1ddd964
-1153	5040	7379385336900903	CMakeFiles/Class_Schedulizer.dir/DepBox.cpp.obj	537eb8fa94559551
-1584	6801	7380155129535498	CMakeFiles/Class_Schedulizer.dir/inputpage.cpp.obj	fff0840f48c4b64b
-191	6239	7380167548152086	CMakeFiles/Class_Schedulizer.dir/createschedulepage.cpp.obj	c16796aa642a974b
-892	3499	7379828839376286	CMakeFiles/Class_Schedulizer.dir/deppage.cpp.obj	4a1715d7a7f94ec3
-1302	5391	7379778979153140	CMakeFiles/Class_Schedulizer.dir/signuppage.cpp.obj	3fd26a61ace4e80c
-232	3521	7380119143906052	CMakeFiles/Class_Schedulizer.dir/BackEnd_C++/InputPage/CreateSchedule/Validate.cpp.obj	dc964ee1c2a2b9e3
-22	182	7381884432312604	Class_Schedulizer_autogen/timestamp	89736df79a60ea61
-22	182	7381884432312604	Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
-22	182	7381884432312604	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/timestamp	89736df79a60ea61
-22	182	7381884432312604	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
-192	3405	7381884464536165	CMakeFiles/Class_Schedulizer.dir/widget.cpp.obj	caa29e6fc5bbe1f0
-3405	4131	7381884471745050	Class_Schedulizer.exe	247874a2c53f7da6
+15	140	7383192038853413	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/BackEnd_C++/BackTracking/BackTracking_autogen/timestamp	7d3bf5e6710c5dd0
+198	270	7383200305214880	CMakeFiles/LINKED_LIST.dir/LINKED_LIST_autogen/mocs_compilation.cpp.obj	a2e60097545fedac
+291	718	7384044470303094	CMakeFiles/Class_Schedulizer.dir/Class_Schedulizer_autogen/EWIEGA46WW/qrc_external_resouces.cpp.obj	3a67a2542778d57d
+1253	6143	7384802543094061	CMakeFiles/Class_Schedulizer.dir/coursebox.cpp.obj	5edf12842783e3f1
+227	6270	7384044525758845	CMakeFiles/Class_Schedulizer.dir/loginpage.cpp.obj	6746209be067cb17
+4393	13373	7384563191964702	CMakeFiles/Class_Schedulizer.dir/DepBox.cpp.obj	c360f44bb7232642
+1236	6637	7384802548025348	CMakeFiles/Class_Schedulizer.dir/inputpage.cpp.obj	181361d533b02371
+20	142	7383185809169002	BackEnd_C++/Backend_autogen/timestamp	e7009ee4def0d62b
+4398	13390	7384563192131469	CMakeFiles/Class_Schedulizer.dir/createschedulepage.cpp.obj	57b670fac957b391
+4407	14544	7384563203549444	CMakeFiles/Class_Schedulizer.dir/deppage.cpp.obj	fcc8353e47d06af4
+15	140	7383192038853413	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/BackEnd_C++/BackTracking/BackTracking_autogen/mocs_compilation.cpp	7d3bf5e6710c5dd0
+349	3218	7384147232077778	CMakeFiles/Class_Schedulizer.dir/checkboxeseventlistener.cpp.obj	a279d94f50d9e68d
+271	6558	7384044528676341	CMakeFiles/Class_Schedulizer.dir/signuppage.cpp.obj	8822cb47f259738c
+276	5808	7384044520551808	CMakeFiles/Class_Schedulizer.dir/BackEnd_C++/InputPage/CreateSchedule/Validate.cpp.obj	48b471ee7a7c5104
+3	548	7384722258376058	build.ninja	b87c45d0105b4064
+20	142	7383185809169002	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/BackEnd_C++/Backend_autogen/mocs_compilation.cpp	e7009ee4def0d62b
+20	142	7383185809169002	BackEnd_C++/Backend_autogen/mocs_compilation.cpp	e7009ee4def0d62b
+4438	13239	7384563189894568	CMakeFiles/Class_Schedulizer.dir/batchbox.cpp.obj	8d6b8b9c7aedbab0
+20	142	7383185809169002	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/BackEnd_C++/Backend_autogen/timestamp	e7009ee4def0d62b
+142	200	7383185810009026	BackEnd_C++/CMakeFiles/Backend.dir/Backend_autogen/mocs_compilation.cpp.obj	c19118c820700818
+201	373	7383185811738973	BackEnd_C++/libBackend.a	19c634a330bca43d
+15	140	7383192038853413	BackEnd_C++/BackTracking/BackTracking_autogen/timestamp	7d3bf5e6710c5dd0
+15	140	7383192038853413	BackEnd_C++/BackTracking/BackTracking_autogen/mocs_compilation.cpp	7d3bf5e6710c5dd0
+141	182	7383192039513412	BackEnd_C++/BackTracking/CMakeFiles/BackTracking.dir/BackTracking_autogen/mocs_compilation.cpp.obj	5da4280ee73b7b01
+182	243	7383192040123489	BackEnd_C++/BackTracking/libBackTracking.a	47e48445ee633a2b
+22	126	7383201923123956	LINKED_LIST_autogen/timestamp	9a4e24fa5b0a83d5
+22	126	7383201923123956	LINKED_LIST_autogen/mocs_compilation.cpp	9a4e24fa5b0a83d5
+22	126	7383201923123956	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/LINKED_LIST_autogen/timestamp	9a4e24fa5b0a83d5
+22	126	7383201923123956	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/LINKED_LIST_autogen/mocs_compilation.cpp	9a4e24fa5b0a83d5
+4412	14475	7384563202945610	CMakeFiles/Class_Schedulizer.dir/depscheduletable.cpp.obj	ad7f71f1e610262c
+4426	13517	7384563193148659	CMakeFiles/Class_Schedulizer.dir/batchscheduletable.cpp.obj	e5430d04a78127dc
+4430	13886	7384563196667989	CMakeFiles/Class_Schedulizer.dir/batchpage.cpp.obj	5b12aa9f41f28844
+4533	13539	7384563193453158	CMakeFiles/Class_Schedulizer.dir/sectionscheduletable.cpp.obj	24d9bbec414fb458
+3984	10571	7384689783715167	CMakeFiles/Class_Schedulizer.dir/coursescheduletable.cpp.obj	693e1d800c0eabb2
+1453	4952	7384722332326985	CMakeFiles/Class_Schedulizer.dir/sectionpage.cpp.obj	6575b71f687c371d
+1241	6562	7384802547256921	CMakeFiles/Class_Schedulizer.dir/coursepage.cpp.obj	270f470cfaccb40d
+4001	10527	7384689783275077	CMakeFiles/Class_Schedulizer.dir/coursesectionbox.cpp.obj	6489c48df9f9072c
+18	1242	7384802944009188	Class_Schedulizer_autogen/timestamp	89736df79a60ea61
+18	1242	7384802944009188	Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
+18	1242	7384802944009188	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/timestamp	89736df79a60ea61
+18	1242	7384802944009188	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
+1271	5814	7384802990395346	CMakeFiles/Class_Schedulizer.dir/coursebox.cpp.obj	5edf12842783e3f1
+1262	6039	7384802992635179	CMakeFiles/Class_Schedulizer.dir/coursepage.cpp.obj	270f470cfaccb40d
+1252	6325	7384802995488729	CMakeFiles/Class_Schedulizer.dir/stackedwidgetmain.cpp.obj	ee5da416d587bc1b
+1256	6432	7384802996578710	CMakeFiles/Class_Schedulizer.dir/inputpage.cpp.obj	181361d533b02371
+1248	6568	7384802997922697	CMakeFiles/Class_Schedulizer.dir/main.cpp.obj	8016e1b792302afb
+1267	6726	7384802999482772	CMakeFiles/Class_Schedulizer.dir/Class_Schedulizer_autogen/mocs_compilation.cpp.obj	92ecc778151c47c7
+1243	7159	7384803003742865	CMakeFiles/Class_Schedulizer.dir/widget.cpp.obj	a3557c305b951f11
+18	1156	7384803274135662	Class_Schedulizer_autogen/timestamp	89736df79a60ea61
+18	1156	7384803274135662	Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
+18	1156	7384803274135662	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/timestamp	89736df79a60ea61
+18	1156	7384803274135662	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
+1189	6041	7384803323688186	CMakeFiles/Class_Schedulizer.dir/coursebox.cpp.obj	5edf12842783e3f1
+1177	6361	7384803326870495	CMakeFiles/Class_Schedulizer.dir/coursepage.cpp.obj	270f470cfaccb40d
+1157	6540	7384803328670522	CMakeFiles/Class_Schedulizer.dir/stackedwidgetmain.cpp.obj	ee5da416d587bc1b
+1172	6622	7384803329500493	CMakeFiles/Class_Schedulizer.dir/inputpage.cpp.obj	181361d533b02371
+1162	6767	7384803330910416	CMakeFiles/Class_Schedulizer.dir/main.cpp.obj	8016e1b792302afb
+1182	6913	7384803332366172	CMakeFiles/Class_Schedulizer.dir/Class_Schedulizer_autogen/mocs_compilation.cpp.obj	92ecc778151c47c7
+1167	7369	7384803336954358	CMakeFiles/Class_Schedulizer.dir/widget.cpp.obj	a3557c305b951f11
+16	1129	7384803679228217	Class_Schedulizer_autogen/timestamp	89736df79a60ea61
+16	1129	7384803679228217	Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
+16	1129	7384803679228217	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/timestamp	89736df79a60ea61
+16	1129	7384803679228217	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
+1156	5917	7384803727921589	CMakeFiles/Class_Schedulizer.dir/coursebox.cpp.obj	5edf12842783e3f1
+1148	6219	7384803730911456	CMakeFiles/Class_Schedulizer.dir/coursepage.cpp.obj	270f470cfaccb40d
+1143	6449	7384803733222959	CMakeFiles/Class_Schedulizer.dir/inputpage.cpp.obj	181361d533b02371
+1134	6493	7384803733673153	CMakeFiles/Class_Schedulizer.dir/stackedwidgetmain.cpp.obj	ee5da416d587bc1b
+1130	6743	7384803736188678	CMakeFiles/Class_Schedulizer.dir/main.cpp.obj	8016e1b792302afb
+1139	7246	7384803741129177	CMakeFiles/Class_Schedulizer.dir/widget.cpp.obj	a3557c305b951f11
+17	1176	7384803938891806	Class_Schedulizer_autogen/timestamp	89736df79a60ea61
+17	1176	7384803938891806	Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
+17	1176	7384803938891806	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/timestamp	89736df79a60ea61
+17	1176	7384803938891806	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
+1204	5464	7384803982464740	CMakeFiles/Class_Schedulizer.dir/coursebox.cpp.obj	5edf12842783e3f1
+1195	5738	7384803985196291	CMakeFiles/Class_Schedulizer.dir/coursepage.cpp.obj	270f470cfaccb40d
+1177	5976	7384803987576023	CMakeFiles/Class_Schedulizer.dir/stackedwidgetmain.cpp.obj	ee5da416d587bc1b
+1190	5998	7384803987796016	CMakeFiles/Class_Schedulizer.dir/inputpage.cpp.obj	181361d533b02371
+1186	6291	7384803990735974	CMakeFiles/Class_Schedulizer.dir/main.cpp.obj	8016e1b792302afb
+1199	6390	7384803991686183	CMakeFiles/Class_Schedulizer.dir/Class_Schedulizer_autogen/mocs_compilation.cpp.obj	92ecc778151c47c7
+1181	6900	7384803996809162	CMakeFiles/Class_Schedulizer.dir/widget.cpp.obj	a3557c305b951f11
+21	309	7384804573669261	Class_Schedulizer_autogen/timestamp	89736df79a60ea61
+21	309	7384804573669261	Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
+21	309	7384804573669261	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/timestamp	89736df79a60ea61
+21	309	7384804573669261	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
+324	3227	7384804602857912	CMakeFiles/Class_Schedulizer.dir/coursebox.cpp.obj	5edf12842783e3f1
+320	4410	7384804614685320	CMakeFiles/Class_Schedulizer.dir/widget.cpp.obj	a3557c305b951f11
+4410	5128	7384804621809666	Class_Schedulizer.exe	b884e7849c8ae375
+22	1254	7384805581131935	Class_Schedulizer_autogen/timestamp	89736df79a60ea61
+22	1254	7384805581131935	Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
+22	1254	7384805581131935	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/timestamp	89736df79a60ea61
+22	1254	7384805581131935	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
+1283	5804	7384805627445904	CMakeFiles/Class_Schedulizer.dir/coursebox.cpp.obj	5edf12842783e3f1
+1273	6003	7384805629420810	CMakeFiles/Class_Schedulizer.dir/coursepage.cpp.obj	270f470cfaccb40d
+1264	6198	7384805631370810	CMakeFiles/Class_Schedulizer.dir/stackedwidgetmain.cpp.obj	ee5da416d587bc1b
+1269	6266	7384805632070776	CMakeFiles/Class_Schedulizer.dir/inputpage.cpp.obj	181361d533b02371
+1259	6415	7384805633566408	CMakeFiles/Class_Schedulizer.dir/main.cpp.obj	8016e1b792302afb
+1278	6494	7384805634296727	CMakeFiles/Class_Schedulizer.dir/Class_Schedulizer_autogen/mocs_compilation.cpp.obj	92ecc778151c47c7
+1255	6992	7384805639229045	CMakeFiles/Class_Schedulizer.dir/widget.cpp.obj	a3557c305b951f11
+19	337	7384806769011946	Class_Schedulizer_autogen/timestamp	89736df79a60ea61
+19	337	7384806769011946	Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
+19	337	7384806769011946	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/timestamp	89736df79a60ea61
+19	337	7384806769011946	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
+353	3614	7384806801816496	CMakeFiles/Class_Schedulizer.dir/coursebox.cpp.obj	5edf12842783e3f1
+348	4571	7384806811359464	CMakeFiles/Class_Schedulizer.dir/widget.cpp.obj	a3557c305b951f11
+20	328	7384807106588673	Class_Schedulizer_autogen/timestamp	89736df79a60ea61
+20	328	7384807106588673	Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
+20	328	7384807106588673	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/timestamp	89736df79a60ea61
+20	328	7384807106588673	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
+343	3488	7384807138207857	CMakeFiles/Class_Schedulizer.dir/coursebox.cpp.obj	5edf12842783e3f1
+338	4571	7384807149013719	CMakeFiles/Class_Schedulizer.dir/widget.cpp.obj	a3557c305b951f11
+4571	5325	7384807156486340	Class_Schedulizer.exe	b884e7849c8ae375
+19	1126	7384813423365388	Class_Schedulizer_autogen/timestamp	89736df79a60ea61
+19	1126	7384813423365388	Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
+19	1126	7384813423365388	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/timestamp	89736df79a60ea61
+19	1126	7384813423365388	C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/mocs_compilation.cpp	89736df79a60ea61
+1153	5293	7384813465668047	CMakeFiles/Class_Schedulizer.dir/coursebox.cpp.obj	5edf12842783e3f1
+1145	5430	7384813467037996	CMakeFiles/Class_Schedulizer.dir/coursepage.cpp.obj	270f470cfaccb40d
+1135	5592	7384813468667995	CMakeFiles/Class_Schedulizer.dir/stackedwidgetmain.cpp.obj	ee5da416d587bc1b
+1140	5722	7384813469958177	CMakeFiles/Class_Schedulizer.dir/inputpage.cpp.obj	181361d533b02371
+1127	5724	7384813469988157	CMakeFiles/Class_Schedulizer.dir/main.cpp.obj	8016e1b792302afb
+1149	5748	7384813470228197	CMakeFiles/Class_Schedulizer.dir/Class_Schedulizer_autogen/mocs_compilation.cpp.obj	92ecc778151c47c7
+1131	6315	7384813475827086	CMakeFiles/Class_Schedulizer.dir/widget.cpp.obj	a3557c305b951f11
+6315	7061	7384813483280268	Class_Schedulizer.exe	b884e7849c8ae375

@@ -159,14 +159,18 @@ C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/build/Deskt
   C:/Qt/6.7.0/mingw_64/include/QtGui/qvalidator.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QCheckBox \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QHBoxLayout \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QLabel \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QLineEdit \
-  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QMessagebox \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QMessageBox \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QPushButton \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QStackedWidget \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QTableWidget \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QTableWidgetItem \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QTimeEdit \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QVBoxLayout \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QWidget \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractbutton.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractitemview.h \
@@ -174,6 +178,7 @@ C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/build/Deskt
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractslider.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractspinbox.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qboxlayout.h \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qcheckbox.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qdatetimeedit.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qdialog.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
@@ -413,7 +418,9 @@ C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/build/Deskt
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/InputPage/CreateSchedule/Validate.h \
-  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/Stack/NodeStack.cpp \
-  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/Stack/NodeStack.h \
-  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/Stack/Stack.cpp \
-  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/Stack/Stack.h
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/InputPage/CreateSchedule/scheduletableinfo.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/LinkedList/NodeSingleLinkedList.cpp \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/LinkedList/NodeSingleLinkedList.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/LinkedList/SingleLinkedList.cpp \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/LinkedList/SingleLinkedList.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/customqcheckboxforschtable.h

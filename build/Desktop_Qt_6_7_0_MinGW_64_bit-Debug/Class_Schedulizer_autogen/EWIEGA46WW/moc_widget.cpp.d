@@ -1,5 +1,6 @@
 C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/EWIEGA46WW/moc_widget.cpp: C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/widget.h \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/moc_predefs.h \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/QObject \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QString \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
@@ -170,12 +171,16 @@ C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/build/Deskt
   C:/Qt/6.7.0/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QApplication \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QCheckBox \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QFrame \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QHBoxLayout \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QLabel \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QLineEdit \
-  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QMessagebox \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QMessageBox \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QPushButton \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QStackedWidget \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QTableWidget \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QTableWidgetItem \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QTimeEdit \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QVBoxLayout \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QWidget \
@@ -187,6 +192,7 @@ C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/build/Deskt
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractspinbox.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qapplication.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qboxlayout.h \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qcheckbox.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qdatetimeedit.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qdialog.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
@@ -426,14 +432,29 @@ C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/build/Deskt
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/InputPage/CreateSchedule/Validate.h \
-  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/Stack/NodeStack.cpp \
-  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/Stack/NodeStack.h \
-  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/Stack/Stack.cpp \
-  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/Stack/Stack.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/InputPage/CreateSchedule/scheduletableinfo.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/LinkedList/NodeSingleLinkedList.cpp \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/LinkedList/NodeSingleLinkedList.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/LinkedList/SingleLinkedList.cpp \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/LinkedList/SingleLinkedList.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/DepBox.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/batchBox.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/batchbox.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/batchpage.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/batchscheduletable.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/courseScheduletable.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/coursebox.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/coursepage.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/coursescheduletable.h \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/createschedulepage.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/customqcheckboxforschtable.h \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/deppage.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/depscheduletable.h \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/inputpage.h \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/loginpage.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/sectionbox.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/sectionpage.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/sectionscheduletable.h \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/signuppage.h \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/stackedwidgetmain.h \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/userpage.h

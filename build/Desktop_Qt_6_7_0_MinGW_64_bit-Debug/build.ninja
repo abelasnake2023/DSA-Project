@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_Class_Schedulizer: phony || Class_Schedu
 build CMakeFiles/Class_Schedulizer.dir/Class_Schedulizer_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_Class_Schedulizer
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Class_Schedulizer.dir\Class_Schedulizer_autogen\mocs_compilation.cpp.obj.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
   OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir\Class_Schedulizer_autogen
@@ -60,7 +60,7 @@ build CMakeFiles/Class_Schedulizer.dir/Class_Schedulizer_autogen/mocs_compilatio
 build CMakeFiles/Class_Schedulizer.dir/main.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/main.cpp || cmake_object_order_depends_target_Class_Schedulizer
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Class_Schedulizer.dir\main.cpp.obj.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
   OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir
@@ -68,7 +68,7 @@ build CMakeFiles/Class_Schedulizer.dir/main.cpp.obj: CXX_COMPILER__Class_Schedul
 build CMakeFiles/Class_Schedulizer.dir/widget.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/widget.cpp || cmake_object_order_depends_target_Class_Schedulizer
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Class_Schedulizer.dir\widget.cpp.obj.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
   OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir
@@ -76,7 +76,7 @@ build CMakeFiles/Class_Schedulizer.dir/widget.cpp.obj: CXX_COMPILER__Class_Sched
 build CMakeFiles/Class_Schedulizer.dir/stackedwidgetmain.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/stackedwidgetmain.cpp || cmake_object_order_depends_target_Class_Schedulizer
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Class_Schedulizer.dir\stackedwidgetmain.cpp.obj.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
   OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir
@@ -84,7 +84,7 @@ build CMakeFiles/Class_Schedulizer.dir/stackedwidgetmain.cpp.obj: CXX_COMPILER__
 build CMakeFiles/Class_Schedulizer.dir/loginpage.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/loginpage.cpp || cmake_object_order_depends_target_Class_Schedulizer
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Class_Schedulizer.dir\loginpage.cpp.obj.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
   OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir
@@ -92,7 +92,7 @@ build CMakeFiles/Class_Schedulizer.dir/loginpage.cpp.obj: CXX_COMPILER__Class_Sc
 build CMakeFiles/Class_Schedulizer.dir/DepBox.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/DepBox.cpp || cmake_object_order_depends_target_Class_Schedulizer
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Class_Schedulizer.dir\DepBox.cpp.obj.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
   OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir
@@ -100,7 +100,7 @@ build CMakeFiles/Class_Schedulizer.dir/DepBox.cpp.obj: CXX_COMPILER__Class_Sched
 build CMakeFiles/Class_Schedulizer.dir/inputpage.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/inputpage.cpp || cmake_object_order_depends_target_Class_Schedulizer
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Class_Schedulizer.dir\inputpage.cpp.obj.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
   OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir
@@ -108,7 +108,7 @@ build CMakeFiles/Class_Schedulizer.dir/inputpage.cpp.obj: CXX_COMPILER__Class_Sc
 build CMakeFiles/Class_Schedulizer.dir/createschedulepage.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/createschedulepage.cpp || cmake_object_order_depends_target_Class_Schedulizer
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Class_Schedulizer.dir\createschedulepage.cpp.obj.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
   OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir
@@ -116,7 +116,7 @@ build CMakeFiles/Class_Schedulizer.dir/createschedulepage.cpp.obj: CXX_COMPILER_
 build CMakeFiles/Class_Schedulizer.dir/deppage.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/deppage.cpp || cmake_object_order_depends_target_Class_Schedulizer
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Class_Schedulizer.dir\deppage.cpp.obj.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
   OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir
@@ -124,7 +124,7 @@ build CMakeFiles/Class_Schedulizer.dir/deppage.cpp.obj: CXX_COMPILER__Class_Sche
 build CMakeFiles/Class_Schedulizer.dir/signuppage.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/signuppage.cpp || cmake_object_order_depends_target_Class_Schedulizer
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Class_Schedulizer.dir\signuppage.cpp.obj.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
   OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir
@@ -132,23 +132,127 @@ build CMakeFiles/Class_Schedulizer.dir/signuppage.cpp.obj: CXX_COMPILER__Class_S
 build CMakeFiles/Class_Schedulizer.dir/userpage.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/userpage.cpp || cmake_object_order_depends_target_Class_Schedulizer
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Class_Schedulizer.dir\userpage.cpp.obj.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
   OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir
 
-build CMakeFiles/Class_Schedulizer.dir/BackEnd_C++/InputPage/CreateSchedule/Validate.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/BackEnd_C++/InputPage/CreateSchedule/Validate.cpp || cmake_object_order_depends_target_Class_Schedulizer
+build CMakeFiles/Class_Schedulizer.dir/customqcheckboxforschtable.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/customqcheckboxforschtable.cpp || cmake_object_order_depends_target_Class_Schedulizer
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\Class_Schedulizer.dir\BackEnd_C++\InputPage\CreateSchedule\Validate.cpp.obj.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  DEP_FILE = CMakeFiles\Class_Schedulizer.dir\customqcheckboxforschtable.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
+  OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir
+
+build CMakeFiles/Class_Schedulizer.dir/BackEnd_C++/InputPage/CreateSchedule/scheduletableinfo.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/BackEnd_C++/InputPage/CreateSchedule/scheduletableinfo.cpp || cmake_object_order_depends_target_Class_Schedulizer
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Class_Schedulizer.dir\BackEnd_C++\InputPage\CreateSchedule\scheduletableinfo.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
   OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir\BackEnd_C++\InputPage\CreateSchedule
 
+build CMakeFiles/Class_Schedulizer.dir/BackEnd_C++/InputPage/CreateSchedule/Validate.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/BackEnd_C++/InputPage/CreateSchedule/Validate.cpp || cmake_object_order_depends_target_Class_Schedulizer
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Class_Schedulizer.dir\BackEnd_C++\InputPage\CreateSchedule\Validate.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
+  OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir\BackEnd_C++\InputPage\CreateSchedule
+
+build CMakeFiles/Class_Schedulizer.dir/depscheduletable.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/depscheduletable.cpp || cmake_object_order_depends_target_Class_Schedulizer
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Class_Schedulizer.dir\depscheduletable.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
+  OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir
+
+build CMakeFiles/Class_Schedulizer.dir/batchpage.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/batchpage.cpp || cmake_object_order_depends_target_Class_Schedulizer
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Class_Schedulizer.dir\batchpage.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
+  OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir
+
+build CMakeFiles/Class_Schedulizer.dir/batchscheduletable.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/batchscheduletable.cpp || cmake_object_order_depends_target_Class_Schedulizer
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Class_Schedulizer.dir\batchscheduletable.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
+  OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir
+
+build CMakeFiles/Class_Schedulizer.dir/batchbox.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/batchbox.cpp || cmake_object_order_depends_target_Class_Schedulizer
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Class_Schedulizer.dir\batchbox.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
+  OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir
+
+build CMakeFiles/Class_Schedulizer.dir/sectionpage.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/sectionpage.cpp || cmake_object_order_depends_target_Class_Schedulizer
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Class_Schedulizer.dir\sectionpage.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
+  OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir
+
+build CMakeFiles/Class_Schedulizer.dir/coursepage.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/coursepage.cpp || cmake_object_order_depends_target_Class_Schedulizer
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Class_Schedulizer.dir\coursepage.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
+  OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir
+
+build CMakeFiles/Class_Schedulizer.dir/coursescheduletable.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/coursescheduletable.cpp || cmake_object_order_depends_target_Class_Schedulizer
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Class_Schedulizer.dir\coursescheduletable.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
+  OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir
+
+build CMakeFiles/Class_Schedulizer.dir/sectionscheduletable.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/sectionscheduletable.cpp || cmake_object_order_depends_target_Class_Schedulizer
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Class_Schedulizer.dir\sectionscheduletable.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
+  OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir
+
+build CMakeFiles/Class_Schedulizer.dir/coursesectionbox.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/coursesectionbox.cpp || cmake_object_order_depends_target_Class_Schedulizer
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Class_Schedulizer.dir\coursesectionbox.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
+  OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir
+
+build CMakeFiles/Class_Schedulizer.dir/coursebox.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/coursebox.cpp || cmake_object_order_depends_target_Class_Schedulizer
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Class_Schedulizer.dir\coursebox.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
+  OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir
+
+build CMakeFiles/Class_Schedulizer.dir/sectionbox.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/sectionbox.cpp || cmake_object_order_depends_target_Class_Schedulizer
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Class_Schedulizer.dir\sectionbox.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
+  OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir
+
 build CMakeFiles/Class_Schedulizer.dir/Class_Schedulizer_autogen/EWIEGA46WW/qrc_external_resouces.cpp.obj: CXX_COMPILER__Class_Schedulizer_unscanned_Debug C$:/Users/user/Documents/DSA/DSA$ Code/DSA$ Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/EWIEGA46WW/qrc_external_resouces.cpp || cmake_object_order_depends_target_Class_Schedulizer
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Class_Schedulizer.dir\Class_Schedulizer_autogen\EWIEGA46WW\qrc_external_resouces.cpp.obj.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  FLAGS = -DQT_QML_DEBUG -frtti -g -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Class_Schedulizer_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
   OBJECT_FILE_DIR = CMakeFiles\Class_Schedulizer.dir\Class_Schedulizer_autogen\EWIEGA46WW
@@ -161,8 +265,8 @@ build CMakeFiles/Class_Schedulizer.dir/Class_Schedulizer_autogen/EWIEGA46WW/qrc_
 #############################################
 # Link the executable Class_Schedulizer.exe
 
-build Class_Schedulizer.exe: CXX_EXECUTABLE_LINKER__Class_Schedulizer_Debug CMakeFiles/Class_Schedulizer.dir/Class_Schedulizer_autogen/mocs_compilation.cpp.obj CMakeFiles/Class_Schedulizer.dir/main.cpp.obj CMakeFiles/Class_Schedulizer.dir/widget.cpp.obj CMakeFiles/Class_Schedulizer.dir/stackedwidgetmain.cpp.obj CMakeFiles/Class_Schedulizer.dir/loginpage.cpp.obj CMakeFiles/Class_Schedulizer.dir/DepBox.cpp.obj CMakeFiles/Class_Schedulizer.dir/inputpage.cpp.obj CMakeFiles/Class_Schedulizer.dir/createschedulepage.cpp.obj CMakeFiles/Class_Schedulizer.dir/deppage.cpp.obj CMakeFiles/Class_Schedulizer.dir/signuppage.cpp.obj CMakeFiles/Class_Schedulizer.dir/userpage.cpp.obj CMakeFiles/Class_Schedulizer.dir/BackEnd_C++/InputPage/CreateSchedule/Validate.cpp.obj CMakeFiles/Class_Schedulizer.dir/Class_Schedulizer_autogen/EWIEGA46WW/qrc_external_resouces.cpp.obj | C$:/Qt/6.7.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.0/mingw_64/lib/libQt6EntryPoint.a || Class_Schedulizer_autogen Class_Schedulizer_autogen_timestamp_deps
-  FLAGS = -DQT_QML_DEBUG -g
+build Class_Schedulizer.exe: CXX_EXECUTABLE_LINKER__Class_Schedulizer_Debug CMakeFiles/Class_Schedulizer.dir/Class_Schedulizer_autogen/mocs_compilation.cpp.obj CMakeFiles/Class_Schedulizer.dir/main.cpp.obj CMakeFiles/Class_Schedulizer.dir/widget.cpp.obj CMakeFiles/Class_Schedulizer.dir/stackedwidgetmain.cpp.obj CMakeFiles/Class_Schedulizer.dir/loginpage.cpp.obj CMakeFiles/Class_Schedulizer.dir/DepBox.cpp.obj CMakeFiles/Class_Schedulizer.dir/inputpage.cpp.obj CMakeFiles/Class_Schedulizer.dir/createschedulepage.cpp.obj CMakeFiles/Class_Schedulizer.dir/deppage.cpp.obj CMakeFiles/Class_Schedulizer.dir/signuppage.cpp.obj CMakeFiles/Class_Schedulizer.dir/userpage.cpp.obj CMakeFiles/Class_Schedulizer.dir/customqcheckboxforschtable.cpp.obj CMakeFiles/Class_Schedulizer.dir/BackEnd_C++/InputPage/CreateSchedule/scheduletableinfo.cpp.obj CMakeFiles/Class_Schedulizer.dir/BackEnd_C++/InputPage/CreateSchedule/Validate.cpp.obj CMakeFiles/Class_Schedulizer.dir/depscheduletable.cpp.obj CMakeFiles/Class_Schedulizer.dir/batchpage.cpp.obj CMakeFiles/Class_Schedulizer.dir/batchscheduletable.cpp.obj CMakeFiles/Class_Schedulizer.dir/batchbox.cpp.obj CMakeFiles/Class_Schedulizer.dir/sectionpage.cpp.obj CMakeFiles/Class_Schedulizer.dir/coursepage.cpp.obj CMakeFiles/Class_Schedulizer.dir/coursescheduletable.cpp.obj CMakeFiles/Class_Schedulizer.dir/sectionscheduletable.cpp.obj CMakeFiles/Class_Schedulizer.dir/coursesectionbox.cpp.obj CMakeFiles/Class_Schedulizer.dir/coursebox.cpp.obj CMakeFiles/Class_Schedulizer.dir/sectionbox.cpp.obj CMakeFiles/Class_Schedulizer.dir/Class_Schedulizer_autogen/EWIEGA46WW/qrc_external_resouces.cpp.obj | C$:/Qt/6.7.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.0/mingw_64/lib/libQt6EntryPoint.a || Class_Schedulizer_autogen Class_Schedulizer_autogen_timestamp_deps
+  FLAGS = -DQT_QML_DEBUG -frtti -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.7.0/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.7.0/mingw_64/lib/libQt6Gui.a  C:/Qt/6.7.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.7.0/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Class_Schedulizer.dir
@@ -273,7 +377,7 @@ build Class_Schedulizer_autogen/EWIEGA46WW/qrc_external_resouces.cpp | ${cmake_n
 #############################################
 # Phony custom command for CMakeFiles\Class_Schedulizer_autogen_timestamp_deps
 
-build CMakeFiles/Class_Schedulizer_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Class_Schedulizer_autogen_timestamp_deps: phony C$:/Qt/6.7.0/mingw_64/./bin/moc.exe C$:/Qt/6.7.0/mingw_64/./bin/uic.exe C$:/Qt/6.7.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Core.a
+build CMakeFiles/Class_Schedulizer_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Class_Schedulizer_autogen_timestamp_deps: phony C$:/Qt/6.7.0/mingw_64/./bin/uic.exe C$:/Qt/6.7.0/mingw_64/./bin/moc.exe C$:/Qt/6.7.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Widgets.a
 
 
 #############################################

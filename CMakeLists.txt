@@ -12,6 +12,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -frtti")
+
 set(PROJECT_SOURCES
         main.cpp
         widget.cpp
@@ -34,10 +37,25 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         deppage.h deppage.cpp
         signuppage.h signuppage.cpp
         userpage.h userpage.cpp
-        BackEnd_C++/InputPage/CreateSchedule/Validate.cpp BackEnd_C++/InputPage/CreateSchedule/Validate.h
-        BackEnd_C++/Library/DataStructures/Stack/NodeStack.h BackEnd_C++/Library/DataStructures/Stack/Stack.h
-        BackEnd_C++/BackTracking/BackTrackingRepeatingPermutation.h BackEnd_C++/BackTracking/CSPRepeatingPermutation.h
+        customqcheckboxforschtable.h customqcheckboxforschtable.cpp
 
+        BackEnd_C++/BackTracking/BackTrackingRepeatingPermutation.h BackEnd_C++/BackTracking/CSPRepeatingPermutation.h
+        BackEnd_C++/InputPage/CreateSchedule/scheduletableinfo.cpp BackEnd_C++/InputPage/CreateSchedule/scheduletableinfo.h
+        BackEnd_C++/InputPage/CreateSchedule/Validate.cpp BackEnd_C++/InputPage/CreateSchedule/Validate.h
+        BackEnd_C++/Library/DataStructures/Stack/NodeStack.h
+        BackEnd_C++/Library/DataStructures/Stack/Stack.h
+        BackEnd_C++/Library/DataStructures/LinkedList/NodeSingleLinkedList.h BackEnd_C++/Library/DataStructures/LinkedList/SingleLinkedList.h
+        depscheduletable.h depscheduletable.cpp
+        batchpage.h batchpage.cpp
+        batchscheduletable.h batchscheduletable.cpp
+        batchbox.h batchbox.cpp
+        sectionpage.h sectionpage.cpp
+        coursepage.h coursepage.cpp
+        coursescheduletable.h coursescheduletable.cpp
+        sectionscheduletable.h sectionscheduletable.cpp
+        coursesectionbox.h coursesectionbox.cpp
+        coursebox.h coursebox.cpp
+        sectionbox.h sectionbox.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Class_Schedulizer APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

@@ -6,6 +6,10 @@
 #include "signuppage.h"
 #include "inputpage.h"
 #include "userpage.h"
+#include "depscheduletable.h"
+#include "batchscheduletable.h"
+#include "coursescheduletable.h"
+#include "sectionscheduletable.h"
 #include <QApplication>
 
 
@@ -25,6 +29,10 @@ private:
     SignUpPage* signUpPage;
     UserPage* userPage;
     InputPage* inputPage;
+    static DepScheduleTable* depSchTable;
+    static BatchScheduleTable* batchSchTable;
+    static CourseScheduleTable* courseSchTable;
+    static SectionScheduleTable* sectionSchTable;
 
 
     // private methods
@@ -39,7 +47,13 @@ public:
     static Ui::Widget *anotherUiPointer;
     Widget(QWidget *parent = nullptr);
     ~Widget();
+
+
+    static DepScheduleTable* getDepSchTable();
+    static BatchScheduleTable* getBatchSchTable();
+    static CourseScheduleTable* getCourseSchTable();
+    static SectionScheduleTable* getScheduleTable();
 };
 
 
-#endif // WIDGET_H
+#endif

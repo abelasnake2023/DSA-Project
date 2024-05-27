@@ -11,6 +11,8 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QCheckBox>
+#include <QtWidgets/QFrame>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
@@ -134,15 +136,112 @@ public:
     QPushButton *btnBatch;
     QPushButton *btnAPolicy;
     QPushButton *btnOutputSchedule;
-    QPushButton *btnBackDepPage;
+    QPushButton *btnExitDepPage;
+    QWidget *batchPage;
+    QHBoxLayout *horizontalLayout_17;
+    QScrollArea *contBatch;
+    QWidget *contDepsWidgets_2;
+    QVBoxLayout *verticalLayout_20;
+    QVBoxLayout *vLayoutContBatch;
+    QWidget *widgetCompBatchPage;
+    QVBoxLayout *verticalLayout_21;
+    QPushButton *btnAddBatchPage;
+    QPushButton *btnRemBatchPage;
+    QPushButton *btnConstBatchPage;
+    QSpacerItem *verticalSpacer_7;
+    QPushButton *btnEditSection;
+    QPushButton *btnEditCourse;
+    QPushButton *btnBackBatchPage;
+    QWidget *coursePage;
+    QHBoxLayout *horizontalLayout_18;
+    QScrollArea *contCourseBox;
+    QWidget *widgetCoursePage;
+    QVBoxLayout *verticalLayout_23;
+    QVBoxLayout *vLayoutContCourse;
+    QWidget *widgetCompCourse;
+    QVBoxLayout *verticalLayout_22;
+    QPushButton *btnAddCourse;
+    QPushButton *btnRemCourse;
+    QPushButton *btnConstraintCoursePage;
+    QPushButton *btnBackCoursePage;
+    QSpacerItem *verticalSpacer_8;
+    QWidget *sectionPage;
+    QHBoxLayout *horizontalLayout_19;
+    QScrollArea *contSectionBox;
+    QWidget *widgetSectionPage;
+    QVBoxLayout *verticalLayout_30;
+    QHBoxLayout *horizontalLayout_26;
+    QPushButton *btnAddSection;
+    QPushButton *btnRemSectionPage;
+    QWidget *widgetSectionBoxes;
+    QVBoxLayout *verticalLayout_31;
+    QScrollArea *scrollAreaSectionPage1;
+    QWidget *scrollAreaWidgetContents;
+    QVBoxLayout *verticalLayout_32;
+    QVBoxLayout *vLayoutSectionBoxAdded;
+    QHBoxLayout *horizontalLayout_27;
+    QPushButton *btnConstraintSectionPage;
+    QPushButton *btnBackSectionPage;
+    QWidget *widgetCompSection;
+    QVBoxLayout *verticalLayout_24;
+    QVBoxLayout *vLayoutCourseSectionBox_main;
+    QScrollArea *scrollAreaSectionPage2;
+    QWidget *scrollAreaWidgetContents_2;
+    QHBoxLayout *horizontalLayout_28;
+    QVBoxLayout *vLayoutCourseSectionBox;
+    QFrame *frame;
+    QHBoxLayout *horizontalLayout_25;
+    QHBoxLayout *horizontalLayout_24;
+    QVBoxLayout *verticalLayout_27;
+    QLabel *label;
+    QLabel *label_2;
+    QLabel *label_3;
+    QVBoxLayout *verticalLayout_25;
+    QLineEdit *lineEdit;
+    QLineEdit *lineEdit_2;
+    QLineEdit *lineEdit_3;
+    QWidget *widget;
+    QVBoxLayout *verticalLayout_28;
+    QSpacerItem *verticalSpacer_9;
+    QCheckBox *checkBox;
+    QSpacerItem *verticalSpacer_10;
+    QPushButton *btnDiscardSecPage;
     QWidget *outputPage;
     QLabel *label_4;
+    QWidget *depSchTable;
+    QHBoxLayout *horizontalLayout_15;
+    QVBoxLayout *verticalLayout_16;
+    QTableWidget *tblDepSch;
+    QHBoxLayout *horizontalLayout_14;
+    QPushButton *btnSaveDepTbl;
+    QPushButton *btnRemoveDepCell;
+    QWidget *batchSchTblPage;
+    QVBoxLayout *verticalLayout_18;
+    QVBoxLayout *verticalLayout_17;
+    QTableWidget *tblBatchSch;
+    QHBoxLayout *horizontalLayout_16;
+    QPushButton *btnSaveBatchSchTbl;
+    QPushButton *btnRemBatchSchTbl;
+    QWidget *courseSchTblPage;
+    QHBoxLayout *horizontalLayout_21;
+    QVBoxLayout *verticalLayout_19;
+    QTableWidget *tblCourseSch;
+    QHBoxLayout *horizontalLayout_20;
+    QPushButton *btnSaveCourseTbl;
+    QPushButton *btnRemoveCourseTbl;
+    QWidget *sectionSchTblPage;
+    QHBoxLayout *horizontalLayout_23;
+    QVBoxLayout *verticalLayout_26;
+    QTableWidget *tblSectionSch;
+    QHBoxLayout *horizontalLayout_22;
+    QPushButton *btnSaveSectionTbl;
+    QPushButton *btnRemoveSectionTbl;
 
     void setupUi(QWidget *Widget)
     {
         if (Widget->objectName().isEmpty())
             Widget->setObjectName("Widget");
-        Widget->resize(985, 705);
+        Widget->resize(945, 543);
         Widget->setMinimumSize(QSize(450, 450));
         horizontalLayout = new QHBoxLayout(Widget);
         horizontalLayout->setObjectName("horizontalLayout");
@@ -587,7 +686,7 @@ public:
         contDeps->setWidgetResizable(true);
         contDepsWidgets = new QWidget();
         contDepsWidgets->setObjectName("contDepsWidgets");
-        contDepsWidgets->setGeometry(QRect(0, 0, 22, 20));
+        contDepsWidgets->setGeometry(QRect(0, 0, 588, 487));
         verticalLayout_6 = new QVBoxLayout(contDepsWidgets);
         verticalLayout_6->setObjectName("verticalLayout_6");
         vLayoutContDeps = new QVBoxLayout();
@@ -654,15 +753,339 @@ public:
 
         verticalLayout_2->addWidget(btnOutputSchedule);
 
-        btnBackDepPage = new QPushButton(widgetInputPageDepEdit);
-        btnBackDepPage->setObjectName("btnBackDepPage");
+        btnExitDepPage = new QPushButton(widgetInputPageDepEdit);
+        btnExitDepPage->setObjectName("btnExitDepPage");
 
-        verticalLayout_2->addWidget(btnBackDepPage);
+        verticalLayout_2->addWidget(btnExitDepPage);
 
 
         horizontalLayout_4->addWidget(widgetInputPageDepEdit);
 
         sWidgetInput->addWidget(depPage);
+        batchPage = new QWidget();
+        batchPage->setObjectName("batchPage");
+        horizontalLayout_17 = new QHBoxLayout(batchPage);
+        horizontalLayout_17->setObjectName("horizontalLayout_17");
+        contBatch = new QScrollArea(batchPage);
+        contBatch->setObjectName("contBatch");
+        sizePolicy7.setHeightForWidth(contBatch->sizePolicy().hasHeightForWidth());
+        contBatch->setSizePolicy(sizePolicy7);
+        contBatch->setWidgetResizable(true);
+        contDepsWidgets_2 = new QWidget();
+        contDepsWidgets_2->setObjectName("contDepsWidgets_2");
+        contDepsWidgets_2->setGeometry(QRect(0, 0, 588, 487));
+        verticalLayout_20 = new QVBoxLayout(contDepsWidgets_2);
+        verticalLayout_20->setObjectName("verticalLayout_20");
+        vLayoutContBatch = new QVBoxLayout();
+        vLayoutContBatch->setObjectName("vLayoutContBatch");
+
+        verticalLayout_20->addLayout(vLayoutContBatch);
+
+        contBatch->setWidget(contDepsWidgets_2);
+
+        horizontalLayout_17->addWidget(contBatch);
+
+        widgetCompBatchPage = new QWidget(batchPage);
+        widgetCompBatchPage->setObjectName("widgetCompBatchPage");
+        sizePolicy8.setHeightForWidth(widgetCompBatchPage->sizePolicy().hasHeightForWidth());
+        widgetCompBatchPage->setSizePolicy(sizePolicy8);
+        widgetCompBatchPage->setMinimumSize(QSize(0, 0));
+        verticalLayout_21 = new QVBoxLayout(widgetCompBatchPage);
+        verticalLayout_21->setObjectName("verticalLayout_21");
+        btnAddBatchPage = new QPushButton(widgetCompBatchPage);
+        btnAddBatchPage->setObjectName("btnAddBatchPage");
+
+        verticalLayout_21->addWidget(btnAddBatchPage);
+
+        btnRemBatchPage = new QPushButton(widgetCompBatchPage);
+        btnRemBatchPage->setObjectName("btnRemBatchPage");
+
+        verticalLayout_21->addWidget(btnRemBatchPage);
+
+        btnConstBatchPage = new QPushButton(widgetCompBatchPage);
+        btnConstBatchPage->setObjectName("btnConstBatchPage");
+
+        verticalLayout_21->addWidget(btnConstBatchPage);
+
+        verticalSpacer_7 = new QSpacerItem(20, 491, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+
+        verticalLayout_21->addItem(verticalSpacer_7);
+
+        btnEditSection = new QPushButton(widgetCompBatchPage);
+        btnEditSection->setObjectName("btnEditSection");
+
+        verticalLayout_21->addWidget(btnEditSection);
+
+        btnEditCourse = new QPushButton(widgetCompBatchPage);
+        btnEditCourse->setObjectName("btnEditCourse");
+
+        verticalLayout_21->addWidget(btnEditCourse);
+
+        btnBackBatchPage = new QPushButton(widgetCompBatchPage);
+        btnBackBatchPage->setObjectName("btnBackBatchPage");
+
+        verticalLayout_21->addWidget(btnBackBatchPage);
+
+
+        horizontalLayout_17->addWidget(widgetCompBatchPage);
+
+        sWidgetInput->addWidget(batchPage);
+        coursePage = new QWidget();
+        coursePage->setObjectName("coursePage");
+        horizontalLayout_18 = new QHBoxLayout(coursePage);
+        horizontalLayout_18->setObjectName("horizontalLayout_18");
+        contCourseBox = new QScrollArea(coursePage);
+        contCourseBox->setObjectName("contCourseBox");
+        sizePolicy7.setHeightForWidth(contCourseBox->sizePolicy().hasHeightForWidth());
+        contCourseBox->setSizePolicy(sizePolicy7);
+        contCourseBox->setWidgetResizable(true);
+        widgetCoursePage = new QWidget();
+        widgetCoursePage->setObjectName("widgetCoursePage");
+        widgetCoursePage->setGeometry(QRect(0, 0, 588, 487));
+        verticalLayout_23 = new QVBoxLayout(widgetCoursePage);
+        verticalLayout_23->setObjectName("verticalLayout_23");
+        vLayoutContCourse = new QVBoxLayout();
+        vLayoutContCourse->setObjectName("vLayoutContCourse");
+
+        verticalLayout_23->addLayout(vLayoutContCourse);
+
+        contCourseBox->setWidget(widgetCoursePage);
+
+        horizontalLayout_18->addWidget(contCourseBox);
+
+        widgetCompCourse = new QWidget(coursePage);
+        widgetCompCourse->setObjectName("widgetCompCourse");
+        sizePolicy8.setHeightForWidth(widgetCompCourse->sizePolicy().hasHeightForWidth());
+        widgetCompCourse->setSizePolicy(sizePolicy8);
+        widgetCompCourse->setMinimumSize(QSize(0, 0));
+        verticalLayout_22 = new QVBoxLayout(widgetCompCourse);
+        verticalLayout_22->setObjectName("verticalLayout_22");
+        btnAddCourse = new QPushButton(widgetCompCourse);
+        btnAddCourse->setObjectName("btnAddCourse");
+
+        verticalLayout_22->addWidget(btnAddCourse);
+
+        btnRemCourse = new QPushButton(widgetCompCourse);
+        btnRemCourse->setObjectName("btnRemCourse");
+
+        verticalLayout_22->addWidget(btnRemCourse);
+
+        btnConstraintCoursePage = new QPushButton(widgetCompCourse);
+        btnConstraintCoursePage->setObjectName("btnConstraintCoursePage");
+
+        verticalLayout_22->addWidget(btnConstraintCoursePage);
+
+        btnBackCoursePage = new QPushButton(widgetCompCourse);
+        btnBackCoursePage->setObjectName("btnBackCoursePage");
+
+        verticalLayout_22->addWidget(btnBackCoursePage);
+
+        verticalSpacer_8 = new QSpacerItem(20, 491, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+
+        verticalLayout_22->addItem(verticalSpacer_8);
+
+
+        horizontalLayout_18->addWidget(widgetCompCourse);
+
+        sWidgetInput->addWidget(coursePage);
+        sectionPage = new QWidget();
+        sectionPage->setObjectName("sectionPage");
+        horizontalLayout_19 = new QHBoxLayout(sectionPage);
+        horizontalLayout_19->setObjectName("horizontalLayout_19");
+        contSectionBox = new QScrollArea(sectionPage);
+        contSectionBox->setObjectName("contSectionBox");
+        QSizePolicy sizePolicy9(QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Expanding);
+        sizePolicy9.setHorizontalStretch(2);
+        sizePolicy9.setVerticalStretch(8);
+        sizePolicy9.setHeightForWidth(contSectionBox->sizePolicy().hasHeightForWidth());
+        contSectionBox->setSizePolicy(sizePolicy9);
+        contSectionBox->setWidgetResizable(true);
+        widgetSectionPage = new QWidget();
+        widgetSectionPage->setObjectName("widgetSectionPage");
+        widgetSectionPage->setGeometry(QRect(0, 0, 588, 487));
+        verticalLayout_30 = new QVBoxLayout(widgetSectionPage);
+        verticalLayout_30->setObjectName("verticalLayout_30");
+        horizontalLayout_26 = new QHBoxLayout();
+        horizontalLayout_26->setObjectName("horizontalLayout_26");
+        btnAddSection = new QPushButton(widgetSectionPage);
+        btnAddSection->setObjectName("btnAddSection");
+
+        horizontalLayout_26->addWidget(btnAddSection);
+
+        btnRemSectionPage = new QPushButton(widgetSectionPage);
+        btnRemSectionPage->setObjectName("btnRemSectionPage");
+
+        horizontalLayout_26->addWidget(btnRemSectionPage);
+
+
+        verticalLayout_30->addLayout(horizontalLayout_26);
+
+        widgetSectionBoxes = new QWidget(widgetSectionPage);
+        widgetSectionBoxes->setObjectName("widgetSectionBoxes");
+        QSizePolicy sizePolicy10(QSizePolicy::Policy::Preferred, QSizePolicy::Policy::Preferred);
+        sizePolicy10.setHorizontalStretch(0);
+        sizePolicy10.setVerticalStretch(1);
+        sizePolicy10.setHeightForWidth(widgetSectionBoxes->sizePolicy().hasHeightForWidth());
+        widgetSectionBoxes->setSizePolicy(sizePolicy10);
+        verticalLayout_31 = new QVBoxLayout(widgetSectionBoxes);
+        verticalLayout_31->setObjectName("verticalLayout_31");
+        scrollAreaSectionPage1 = new QScrollArea(widgetSectionBoxes);
+        scrollAreaSectionPage1->setObjectName("scrollAreaSectionPage1");
+        scrollAreaSectionPage1->setWidgetResizable(true);
+        scrollAreaWidgetContents = new QWidget();
+        scrollAreaWidgetContents->setObjectName("scrollAreaWidgetContents");
+        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 550, 385));
+        verticalLayout_32 = new QVBoxLayout(scrollAreaWidgetContents);
+        verticalLayout_32->setObjectName("verticalLayout_32");
+        vLayoutSectionBoxAdded = new QVBoxLayout();
+        vLayoutSectionBoxAdded->setObjectName("vLayoutSectionBoxAdded");
+
+        verticalLayout_32->addLayout(vLayoutSectionBoxAdded);
+
+        scrollAreaSectionPage1->setWidget(scrollAreaWidgetContents);
+
+        verticalLayout_31->addWidget(scrollAreaSectionPage1);
+
+
+        verticalLayout_30->addWidget(widgetSectionBoxes);
+
+        horizontalLayout_27 = new QHBoxLayout();
+        horizontalLayout_27->setObjectName("horizontalLayout_27");
+        btnConstraintSectionPage = new QPushButton(widgetSectionPage);
+        btnConstraintSectionPage->setObjectName("btnConstraintSectionPage");
+
+        horizontalLayout_27->addWidget(btnConstraintSectionPage);
+
+        btnBackSectionPage = new QPushButton(widgetSectionPage);
+        btnBackSectionPage->setObjectName("btnBackSectionPage");
+
+        horizontalLayout_27->addWidget(btnBackSectionPage);
+
+
+        verticalLayout_30->addLayout(horizontalLayout_27);
+
+        contSectionBox->setWidget(widgetSectionPage);
+
+        horizontalLayout_19->addWidget(contSectionBox);
+
+        widgetCompSection = new QWidget(sectionPage);
+        widgetCompSection->setObjectName("widgetCompSection");
+        sizePolicy8.setHeightForWidth(widgetCompSection->sizePolicy().hasHeightForWidth());
+        widgetCompSection->setSizePolicy(sizePolicy8);
+        widgetCompSection->setMinimumSize(QSize(0, 0));
+        verticalLayout_24 = new QVBoxLayout(widgetCompSection);
+        verticalLayout_24->setObjectName("verticalLayout_24");
+        vLayoutCourseSectionBox_main = new QVBoxLayout();
+        vLayoutCourseSectionBox_main->setObjectName("vLayoutCourseSectionBox_main");
+        scrollAreaSectionPage2 = new QScrollArea(widgetCompSection);
+        scrollAreaSectionPage2->setObjectName("scrollAreaSectionPage2");
+        scrollAreaSectionPage2->setWidgetResizable(true);
+        scrollAreaWidgetContents_2 = new QWidget();
+        scrollAreaWidgetContents_2->setObjectName("scrollAreaWidgetContents_2");
+        scrollAreaWidgetContents_2->setGeometry(QRect(0, 0, 273, 437));
+        horizontalLayout_28 = new QHBoxLayout(scrollAreaWidgetContents_2);
+        horizontalLayout_28->setObjectName("horizontalLayout_28");
+        vLayoutCourseSectionBox = new QVBoxLayout();
+        vLayoutCourseSectionBox->setObjectName("vLayoutCourseSectionBox");
+        frame = new QFrame(scrollAreaWidgetContents_2);
+        frame->setObjectName("frame");
+        frame->setMaximumSize(QSize(300, 150));
+        frame->setFrameShape(QFrame::StyledPanel);
+        frame->setFrameShadow(QFrame::Raised);
+        horizontalLayout_25 = new QHBoxLayout(frame);
+        horizontalLayout_25->setObjectName("horizontalLayout_25");
+        horizontalLayout_24 = new QHBoxLayout();
+        horizontalLayout_24->setObjectName("horizontalLayout_24");
+        verticalLayout_27 = new QVBoxLayout();
+        verticalLayout_27->setObjectName("verticalLayout_27");
+        label = new QLabel(frame);
+        label->setObjectName("label");
+
+        verticalLayout_27->addWidget(label);
+
+        label_2 = new QLabel(frame);
+        label_2->setObjectName("label_2");
+
+        verticalLayout_27->addWidget(label_2);
+
+        label_3 = new QLabel(frame);
+        label_3->setObjectName("label_3");
+
+        verticalLayout_27->addWidget(label_3);
+
+
+        horizontalLayout_24->addLayout(verticalLayout_27);
+
+        verticalLayout_25 = new QVBoxLayout();
+        verticalLayout_25->setObjectName("verticalLayout_25");
+        lineEdit = new QLineEdit(frame);
+        lineEdit->setObjectName("lineEdit");
+
+        verticalLayout_25->addWidget(lineEdit);
+
+        lineEdit_2 = new QLineEdit(frame);
+        lineEdit_2->setObjectName("lineEdit_2");
+
+        verticalLayout_25->addWidget(lineEdit_2);
+
+        lineEdit_3 = new QLineEdit(frame);
+        lineEdit_3->setObjectName("lineEdit_3");
+
+        verticalLayout_25->addWidget(lineEdit_3);
+
+
+        horizontalLayout_24->addLayout(verticalLayout_25);
+
+
+        horizontalLayout_25->addLayout(horizontalLayout_24);
+
+        widget = new QWidget(frame);
+        widget->setObjectName("widget");
+        QSizePolicy sizePolicy11(QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Preferred);
+        sizePolicy11.setHorizontalStretch(0);
+        sizePolicy11.setVerticalStretch(0);
+        sizePolicy11.setHeightForWidth(widget->sizePolicy().hasHeightForWidth());
+        widget->setSizePolicy(sizePolicy11);
+        verticalLayout_28 = new QVBoxLayout(widget);
+        verticalLayout_28->setObjectName("verticalLayout_28");
+        verticalSpacer_9 = new QSpacerItem(18, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+
+        verticalLayout_28->addItem(verticalSpacer_9);
+
+        checkBox = new QCheckBox(widget);
+        checkBox->setObjectName("checkBox");
+
+        verticalLayout_28->addWidget(checkBox);
+
+        verticalSpacer_10 = new QSpacerItem(18, 39, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+
+        verticalLayout_28->addItem(verticalSpacer_10);
+
+
+        horizontalLayout_25->addWidget(widget);
+
+
+        vLayoutCourseSectionBox->addWidget(frame);
+
+
+        horizontalLayout_28->addLayout(vLayoutCourseSectionBox);
+
+        scrollAreaSectionPage2->setWidget(scrollAreaWidgetContents_2);
+
+        vLayoutCourseSectionBox_main->addWidget(scrollAreaSectionPage2);
+
+
+        verticalLayout_24->addLayout(vLayoutCourseSectionBox_main);
+
+        btnDiscardSecPage = new QPushButton(widgetCompSection);
+        btnDiscardSecPage->setObjectName("btnDiscardSecPage");
+
+        verticalLayout_24->addWidget(btnDiscardSecPage);
+
+
+        horizontalLayout_19->addWidget(widgetCompSection);
+
+        sWidgetInput->addWidget(sectionPage);
 
         horizontalLayout_3->addWidget(sWidgetInput);
 
@@ -673,14 +1096,214 @@ public:
         label_4->setObjectName("label_4");
         label_4->setGeometry(QRect(340, 270, 101, 42));
         sWidgetMain->addWidget(outputPage);
+        depSchTable = new QWidget();
+        depSchTable->setObjectName("depSchTable");
+        horizontalLayout_15 = new QHBoxLayout(depSchTable);
+        horizontalLayout_15->setObjectName("horizontalLayout_15");
+        verticalLayout_16 = new QVBoxLayout();
+        verticalLayout_16->setObjectName("verticalLayout_16");
+        tblDepSch = new QTableWidget(depSchTable);
+        if (tblDepSch->columnCount() < 9)
+            tblDepSch->setColumnCount(9);
+        QTableWidgetItem *__qtablewidgetitem11 = new QTableWidgetItem();
+        tblDepSch->setHorizontalHeaderItem(0, __qtablewidgetitem11);
+        QTableWidgetItem *__qtablewidgetitem12 = new QTableWidgetItem();
+        tblDepSch->setHorizontalHeaderItem(1, __qtablewidgetitem12);
+        QTableWidgetItem *__qtablewidgetitem13 = new QTableWidgetItem();
+        tblDepSch->setHorizontalHeaderItem(2, __qtablewidgetitem13);
+        QTableWidgetItem *__qtablewidgetitem14 = new QTableWidgetItem();
+        tblDepSch->setHorizontalHeaderItem(3, __qtablewidgetitem14);
+        QTableWidgetItem *__qtablewidgetitem15 = new QTableWidgetItem();
+        tblDepSch->setHorizontalHeaderItem(4, __qtablewidgetitem15);
+        QTableWidgetItem *__qtablewidgetitem16 = new QTableWidgetItem();
+        tblDepSch->setHorizontalHeaderItem(5, __qtablewidgetitem16);
+        QTableWidgetItem *__qtablewidgetitem17 = new QTableWidgetItem();
+        tblDepSch->setHorizontalHeaderItem(6, __qtablewidgetitem17);
+        QTableWidgetItem *__qtablewidgetitem18 = new QTableWidgetItem();
+        tblDepSch->setHorizontalHeaderItem(7, __qtablewidgetitem18);
+        QTableWidgetItem *__qtablewidgetitem19 = new QTableWidgetItem();
+        tblDepSch->setHorizontalHeaderItem(8, __qtablewidgetitem19);
+        tblDepSch->setObjectName("tblDepSch");
+
+        verticalLayout_16->addWidget(tblDepSch);
+
+        horizontalLayout_14 = new QHBoxLayout();
+        horizontalLayout_14->setObjectName("horizontalLayout_14");
+        btnSaveDepTbl = new QPushButton(depSchTable);
+        btnSaveDepTbl->setObjectName("btnSaveDepTbl");
+
+        horizontalLayout_14->addWidget(btnSaveDepTbl);
+
+        btnRemoveDepCell = new QPushButton(depSchTable);
+        btnRemoveDepCell->setObjectName("btnRemoveDepCell");
+
+        horizontalLayout_14->addWidget(btnRemoveDepCell);
+
+
+        verticalLayout_16->addLayout(horizontalLayout_14);
+
+
+        horizontalLayout_15->addLayout(verticalLayout_16);
+
+        sWidgetMain->addWidget(depSchTable);
+        batchSchTblPage = new QWidget();
+        batchSchTblPage->setObjectName("batchSchTblPage");
+        verticalLayout_18 = new QVBoxLayout(batchSchTblPage);
+        verticalLayout_18->setObjectName("verticalLayout_18");
+        verticalLayout_17 = new QVBoxLayout();
+        verticalLayout_17->setObjectName("verticalLayout_17");
+        tblBatchSch = new QTableWidget(batchSchTblPage);
+        if (tblBatchSch->columnCount() < 9)
+            tblBatchSch->setColumnCount(9);
+        QTableWidgetItem *__qtablewidgetitem20 = new QTableWidgetItem();
+        tblBatchSch->setHorizontalHeaderItem(0, __qtablewidgetitem20);
+        QTableWidgetItem *__qtablewidgetitem21 = new QTableWidgetItem();
+        tblBatchSch->setHorizontalHeaderItem(1, __qtablewidgetitem21);
+        QTableWidgetItem *__qtablewidgetitem22 = new QTableWidgetItem();
+        tblBatchSch->setHorizontalHeaderItem(2, __qtablewidgetitem22);
+        QTableWidgetItem *__qtablewidgetitem23 = new QTableWidgetItem();
+        tblBatchSch->setHorizontalHeaderItem(3, __qtablewidgetitem23);
+        QTableWidgetItem *__qtablewidgetitem24 = new QTableWidgetItem();
+        tblBatchSch->setHorizontalHeaderItem(4, __qtablewidgetitem24);
+        QTableWidgetItem *__qtablewidgetitem25 = new QTableWidgetItem();
+        tblBatchSch->setHorizontalHeaderItem(5, __qtablewidgetitem25);
+        QTableWidgetItem *__qtablewidgetitem26 = new QTableWidgetItem();
+        tblBatchSch->setHorizontalHeaderItem(6, __qtablewidgetitem26);
+        QTableWidgetItem *__qtablewidgetitem27 = new QTableWidgetItem();
+        tblBatchSch->setHorizontalHeaderItem(7, __qtablewidgetitem27);
+        QTableWidgetItem *__qtablewidgetitem28 = new QTableWidgetItem();
+        tblBatchSch->setHorizontalHeaderItem(8, __qtablewidgetitem28);
+        tblBatchSch->setObjectName("tblBatchSch");
+
+        verticalLayout_17->addWidget(tblBatchSch);
+
+        horizontalLayout_16 = new QHBoxLayout();
+        horizontalLayout_16->setObjectName("horizontalLayout_16");
+        btnSaveBatchSchTbl = new QPushButton(batchSchTblPage);
+        btnSaveBatchSchTbl->setObjectName("btnSaveBatchSchTbl");
+
+        horizontalLayout_16->addWidget(btnSaveBatchSchTbl);
+
+        btnRemBatchSchTbl = new QPushButton(batchSchTblPage);
+        btnRemBatchSchTbl->setObjectName("btnRemBatchSchTbl");
+
+        horizontalLayout_16->addWidget(btnRemBatchSchTbl);
+
+
+        verticalLayout_17->addLayout(horizontalLayout_16);
+
+
+        verticalLayout_18->addLayout(verticalLayout_17);
+
+        sWidgetMain->addWidget(batchSchTblPage);
+        courseSchTblPage = new QWidget();
+        courseSchTblPage->setObjectName("courseSchTblPage");
+        horizontalLayout_21 = new QHBoxLayout(courseSchTblPage);
+        horizontalLayout_21->setObjectName("horizontalLayout_21");
+        verticalLayout_19 = new QVBoxLayout();
+        verticalLayout_19->setObjectName("verticalLayout_19");
+        tblCourseSch = new QTableWidget(courseSchTblPage);
+        if (tblCourseSch->columnCount() < 9)
+            tblCourseSch->setColumnCount(9);
+        QTableWidgetItem *__qtablewidgetitem29 = new QTableWidgetItem();
+        tblCourseSch->setHorizontalHeaderItem(0, __qtablewidgetitem29);
+        QTableWidgetItem *__qtablewidgetitem30 = new QTableWidgetItem();
+        tblCourseSch->setHorizontalHeaderItem(1, __qtablewidgetitem30);
+        QTableWidgetItem *__qtablewidgetitem31 = new QTableWidgetItem();
+        tblCourseSch->setHorizontalHeaderItem(2, __qtablewidgetitem31);
+        QTableWidgetItem *__qtablewidgetitem32 = new QTableWidgetItem();
+        tblCourseSch->setHorizontalHeaderItem(3, __qtablewidgetitem32);
+        QTableWidgetItem *__qtablewidgetitem33 = new QTableWidgetItem();
+        tblCourseSch->setHorizontalHeaderItem(4, __qtablewidgetitem33);
+        QTableWidgetItem *__qtablewidgetitem34 = new QTableWidgetItem();
+        tblCourseSch->setHorizontalHeaderItem(5, __qtablewidgetitem34);
+        QTableWidgetItem *__qtablewidgetitem35 = new QTableWidgetItem();
+        tblCourseSch->setHorizontalHeaderItem(6, __qtablewidgetitem35);
+        QTableWidgetItem *__qtablewidgetitem36 = new QTableWidgetItem();
+        tblCourseSch->setHorizontalHeaderItem(7, __qtablewidgetitem36);
+        QTableWidgetItem *__qtablewidgetitem37 = new QTableWidgetItem();
+        tblCourseSch->setHorizontalHeaderItem(8, __qtablewidgetitem37);
+        tblCourseSch->setObjectName("tblCourseSch");
+
+        verticalLayout_19->addWidget(tblCourseSch);
+
+        horizontalLayout_20 = new QHBoxLayout();
+        horizontalLayout_20->setObjectName("horizontalLayout_20");
+        btnSaveCourseTbl = new QPushButton(courseSchTblPage);
+        btnSaveCourseTbl->setObjectName("btnSaveCourseTbl");
+
+        horizontalLayout_20->addWidget(btnSaveCourseTbl);
+
+        btnRemoveCourseTbl = new QPushButton(courseSchTblPage);
+        btnRemoveCourseTbl->setObjectName("btnRemoveCourseTbl");
+
+        horizontalLayout_20->addWidget(btnRemoveCourseTbl);
+
+
+        verticalLayout_19->addLayout(horizontalLayout_20);
+
+
+        horizontalLayout_21->addLayout(verticalLayout_19);
+
+        sWidgetMain->addWidget(courseSchTblPage);
+        sectionSchTblPage = new QWidget();
+        sectionSchTblPage->setObjectName("sectionSchTblPage");
+        horizontalLayout_23 = new QHBoxLayout(sectionSchTblPage);
+        horizontalLayout_23->setObjectName("horizontalLayout_23");
+        verticalLayout_26 = new QVBoxLayout();
+        verticalLayout_26->setObjectName("verticalLayout_26");
+        tblSectionSch = new QTableWidget(sectionSchTblPage);
+        if (tblSectionSch->columnCount() < 9)
+            tblSectionSch->setColumnCount(9);
+        QTableWidgetItem *__qtablewidgetitem38 = new QTableWidgetItem();
+        tblSectionSch->setHorizontalHeaderItem(0, __qtablewidgetitem38);
+        QTableWidgetItem *__qtablewidgetitem39 = new QTableWidgetItem();
+        tblSectionSch->setHorizontalHeaderItem(1, __qtablewidgetitem39);
+        QTableWidgetItem *__qtablewidgetitem40 = new QTableWidgetItem();
+        tblSectionSch->setHorizontalHeaderItem(2, __qtablewidgetitem40);
+        QTableWidgetItem *__qtablewidgetitem41 = new QTableWidgetItem();
+        tblSectionSch->setHorizontalHeaderItem(3, __qtablewidgetitem41);
+        QTableWidgetItem *__qtablewidgetitem42 = new QTableWidgetItem();
+        tblSectionSch->setHorizontalHeaderItem(4, __qtablewidgetitem42);
+        QTableWidgetItem *__qtablewidgetitem43 = new QTableWidgetItem();
+        tblSectionSch->setHorizontalHeaderItem(5, __qtablewidgetitem43);
+        QTableWidgetItem *__qtablewidgetitem44 = new QTableWidgetItem();
+        tblSectionSch->setHorizontalHeaderItem(6, __qtablewidgetitem44);
+        QTableWidgetItem *__qtablewidgetitem45 = new QTableWidgetItem();
+        tblSectionSch->setHorizontalHeaderItem(7, __qtablewidgetitem45);
+        QTableWidgetItem *__qtablewidgetitem46 = new QTableWidgetItem();
+        tblSectionSch->setHorizontalHeaderItem(8, __qtablewidgetitem46);
+        tblSectionSch->setObjectName("tblSectionSch");
+
+        verticalLayout_26->addWidget(tblSectionSch);
+
+        horizontalLayout_22 = new QHBoxLayout();
+        horizontalLayout_22->setObjectName("horizontalLayout_22");
+        btnSaveSectionTbl = new QPushButton(sectionSchTblPage);
+        btnSaveSectionTbl->setObjectName("btnSaveSectionTbl");
+
+        horizontalLayout_22->addWidget(btnSaveSectionTbl);
+
+        btnRemoveSectionTbl = new QPushButton(sectionSchTblPage);
+        btnRemoveSectionTbl->setObjectName("btnRemoveSectionTbl");
+
+        horizontalLayout_22->addWidget(btnRemoveSectionTbl);
+
+
+        verticalLayout_26->addLayout(horizontalLayout_22);
+
+
+        horizontalLayout_23->addLayout(verticalLayout_26);
+
+        sWidgetMain->addWidget(sectionSchTblPage);
 
         horizontalLayout->addWidget(sWidgetMain);
 
 
         retranslateUi(Widget);
 
-        sWidgetMain->setCurrentIndex(0);
-        sWidgetInput->setCurrentIndex(0);
+        sWidgetMain->setCurrentIndex(3);
+        sWidgetInput->setCurrentIndex(4);
         sWidgetCreateSchedule->setCurrentIndex(0);
 
 
@@ -723,7 +1346,7 @@ public:
         QTableWidgetItem *___qtablewidgetitem4 = tblScheduleTableStruct->horizontalHeaderItem(2);
         ___qtablewidgetitem4->setText(QCoreApplication::translate("Widget", "Monday", nullptr));
         QTableWidgetItem *___qtablewidgetitem5 = tblScheduleTableStruct->horizontalHeaderItem(3);
-        ___qtablewidgetitem5->setText(QCoreApplication::translate("Widget", "Tusday", nullptr));
+        ___qtablewidgetitem5->setText(QCoreApplication::translate("Widget", "Tuesday", nullptr));
         QTableWidgetItem *___qtablewidgetitem6 = tblScheduleTableStruct->horizontalHeaderItem(4);
         ___qtablewidgetitem6->setText(QCoreApplication::translate("Widget", "Wednesday", nullptr));
         QTableWidgetItem *___qtablewidgetitem7 = tblScheduleTableStruct->horizontalHeaderItem(5);
@@ -745,8 +1368,107 @@ public:
         btnBatch->setText(QCoreApplication::translate("Widget", "Batches", nullptr));
         btnAPolicy->setText(QCoreApplication::translate("Widget", "Administrative Policy", nullptr));
         btnOutputSchedule->setText(QCoreApplication::translate("Widget", "Generate Schedule", nullptr));
-        btnBackDepPage->setText(QCoreApplication::translate("Widget", "Back", nullptr));
+        btnExitDepPage->setText(QCoreApplication::translate("Widget", "Exit", nullptr));
+        btnAddBatchPage->setText(QCoreApplication::translate("Widget", "Add", nullptr));
+        btnRemBatchPage->setText(QCoreApplication::translate("Widget", "Remove", nullptr));
+        btnConstBatchPage->setText(QCoreApplication::translate("Widget", "Constraint", nullptr));
+        btnEditSection->setText(QCoreApplication::translate("Widget", "Edit Section", nullptr));
+        btnEditCourse->setText(QCoreApplication::translate("Widget", "Edit Course", nullptr));
+        btnBackBatchPage->setText(QCoreApplication::translate("Widget", "Back", nullptr));
+        btnAddCourse->setText(QCoreApplication::translate("Widget", "Add", nullptr));
+        btnRemCourse->setText(QCoreApplication::translate("Widget", "Remove", nullptr));
+        btnConstraintCoursePage->setText(QCoreApplication::translate("Widget", "Constraint", nullptr));
+        btnBackCoursePage->setText(QCoreApplication::translate("Widget", "Back", nullptr));
+        btnAddSection->setText(QCoreApplication::translate("Widget", "Add", nullptr));
+        btnRemSectionPage->setText(QCoreApplication::translate("Widget", "Remove", nullptr));
+        btnConstraintSectionPage->setText(QCoreApplication::translate("Widget", "Constraint", nullptr));
+        btnBackSectionPage->setText(QCoreApplication::translate("Widget", "Back", nullptr));
+        label->setText(QCoreApplication::translate("Widget", "        Course Name:", nullptr));
+        label_2->setText(QCoreApplication::translate("Widget", "                   Teacher:", nullptr));
+        label_3->setText(QCoreApplication::translate("Widget", "Number of Student: ", nullptr));
+        checkBox->setText(QString());
+        btnDiscardSecPage->setText(QCoreApplication::translate("Widget", "Discard", nullptr));
         label_4->setText(QCoreApplication::translate("Widget", "output page", nullptr));
+        QTableWidgetItem *___qtablewidgetitem11 = tblDepSch->horizontalHeaderItem(0);
+        ___qtablewidgetitem11->setText(QCoreApplication::translate("Widget", "Period", nullptr));
+        QTableWidgetItem *___qtablewidgetitem12 = tblDepSch->horizontalHeaderItem(1);
+        ___qtablewidgetitem12->setText(QCoreApplication::translate("Widget", "Time", nullptr));
+        QTableWidgetItem *___qtablewidgetitem13 = tblDepSch->horizontalHeaderItem(2);
+        ___qtablewidgetitem13->setText(QCoreApplication::translate("Widget", "Monday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem14 = tblDepSch->horizontalHeaderItem(3);
+        ___qtablewidgetitem14->setText(QCoreApplication::translate("Widget", "Tuesday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem15 = tblDepSch->horizontalHeaderItem(4);
+        ___qtablewidgetitem15->setText(QCoreApplication::translate("Widget", "Wednesday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem16 = tblDepSch->horizontalHeaderItem(5);
+        ___qtablewidgetitem16->setText(QCoreApplication::translate("Widget", "Thursday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem17 = tblDepSch->horizontalHeaderItem(6);
+        ___qtablewidgetitem17->setText(QCoreApplication::translate("Widget", "Friday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem18 = tblDepSch->horizontalHeaderItem(7);
+        ___qtablewidgetitem18->setText(QCoreApplication::translate("Widget", "Saturday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem19 = tblDepSch->horizontalHeaderItem(8);
+        ___qtablewidgetitem19->setText(QCoreApplication::translate("Widget", "Sunday", nullptr));
+        btnSaveDepTbl->setText(QCoreApplication::translate("Widget", "Save", nullptr));
+        btnRemoveDepCell->setText(QCoreApplication::translate("Widget", "Remove", nullptr));
+        QTableWidgetItem *___qtablewidgetitem20 = tblBatchSch->horizontalHeaderItem(0);
+        ___qtablewidgetitem20->setText(QCoreApplication::translate("Widget", "Period", nullptr));
+        QTableWidgetItem *___qtablewidgetitem21 = tblBatchSch->horizontalHeaderItem(1);
+        ___qtablewidgetitem21->setText(QCoreApplication::translate("Widget", "Time", nullptr));
+        QTableWidgetItem *___qtablewidgetitem22 = tblBatchSch->horizontalHeaderItem(2);
+        ___qtablewidgetitem22->setText(QCoreApplication::translate("Widget", "Monday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem23 = tblBatchSch->horizontalHeaderItem(3);
+        ___qtablewidgetitem23->setText(QCoreApplication::translate("Widget", "Tuesday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem24 = tblBatchSch->horizontalHeaderItem(4);
+        ___qtablewidgetitem24->setText(QCoreApplication::translate("Widget", "Wednesday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem25 = tblBatchSch->horizontalHeaderItem(5);
+        ___qtablewidgetitem25->setText(QCoreApplication::translate("Widget", "Thursday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem26 = tblBatchSch->horizontalHeaderItem(6);
+        ___qtablewidgetitem26->setText(QCoreApplication::translate("Widget", "Friday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem27 = tblBatchSch->horizontalHeaderItem(7);
+        ___qtablewidgetitem27->setText(QCoreApplication::translate("Widget", "Saturday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem28 = tblBatchSch->horizontalHeaderItem(8);
+        ___qtablewidgetitem28->setText(QCoreApplication::translate("Widget", "Sunday", nullptr));
+        btnSaveBatchSchTbl->setText(QCoreApplication::translate("Widget", "Save", nullptr));
+        btnRemBatchSchTbl->setText(QCoreApplication::translate("Widget", "Remove", nullptr));
+        QTableWidgetItem *___qtablewidgetitem29 = tblCourseSch->horizontalHeaderItem(0);
+        ___qtablewidgetitem29->setText(QCoreApplication::translate("Widget", "Period", nullptr));
+        QTableWidgetItem *___qtablewidgetitem30 = tblCourseSch->horizontalHeaderItem(1);
+        ___qtablewidgetitem30->setText(QCoreApplication::translate("Widget", "Time", nullptr));
+        QTableWidgetItem *___qtablewidgetitem31 = tblCourseSch->horizontalHeaderItem(2);
+        ___qtablewidgetitem31->setText(QCoreApplication::translate("Widget", "Monday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem32 = tblCourseSch->horizontalHeaderItem(3);
+        ___qtablewidgetitem32->setText(QCoreApplication::translate("Widget", "Tuesday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem33 = tblCourseSch->horizontalHeaderItem(4);
+        ___qtablewidgetitem33->setText(QCoreApplication::translate("Widget", "Wednesday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem34 = tblCourseSch->horizontalHeaderItem(5);
+        ___qtablewidgetitem34->setText(QCoreApplication::translate("Widget", "Thursday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem35 = tblCourseSch->horizontalHeaderItem(6);
+        ___qtablewidgetitem35->setText(QCoreApplication::translate("Widget", "Friday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem36 = tblCourseSch->horizontalHeaderItem(7);
+        ___qtablewidgetitem36->setText(QCoreApplication::translate("Widget", "Saturday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem37 = tblCourseSch->horizontalHeaderItem(8);
+        ___qtablewidgetitem37->setText(QCoreApplication::translate("Widget", "Sunday", nullptr));
+        btnSaveCourseTbl->setText(QCoreApplication::translate("Widget", "Save", nullptr));
+        btnRemoveCourseTbl->setText(QCoreApplication::translate("Widget", "Remove", nullptr));
+        QTableWidgetItem *___qtablewidgetitem38 = tblSectionSch->horizontalHeaderItem(0);
+        ___qtablewidgetitem38->setText(QCoreApplication::translate("Widget", "Period", nullptr));
+        QTableWidgetItem *___qtablewidgetitem39 = tblSectionSch->horizontalHeaderItem(1);
+        ___qtablewidgetitem39->setText(QCoreApplication::translate("Widget", "Time", nullptr));
+        QTableWidgetItem *___qtablewidgetitem40 = tblSectionSch->horizontalHeaderItem(2);
+        ___qtablewidgetitem40->setText(QCoreApplication::translate("Widget", "Monday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem41 = tblSectionSch->horizontalHeaderItem(3);
+        ___qtablewidgetitem41->setText(QCoreApplication::translate("Widget", "Tuesday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem42 = tblSectionSch->horizontalHeaderItem(4);
+        ___qtablewidgetitem42->setText(QCoreApplication::translate("Widget", "Wednesday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem43 = tblSectionSch->horizontalHeaderItem(5);
+        ___qtablewidgetitem43->setText(QCoreApplication::translate("Widget", "Thursday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem44 = tblSectionSch->horizontalHeaderItem(6);
+        ___qtablewidgetitem44->setText(QCoreApplication::translate("Widget", "Friday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem45 = tblSectionSch->horizontalHeaderItem(7);
+        ___qtablewidgetitem45->setText(QCoreApplication::translate("Widget", "Saturday", nullptr));
+        QTableWidgetItem *___qtablewidgetitem46 = tblSectionSch->horizontalHeaderItem(8);
+        ___qtablewidgetitem46->setText(QCoreApplication::translate("Widget", "Sunday", nullptr));
+        btnSaveSectionTbl->setText(QCoreApplication::translate("Widget", "Save", nullptr));
+        btnRemoveSectionTbl->setText(QCoreApplication::translate("Widget", "Remove", nullptr));
     } // retranslateUi
 
 };

@@ -6,6 +6,7 @@ Validate::~Validate() {
 
 }
 Validate::Validate() {
+    this->timeInterval = -1;
     this->periodCounter = 0;
     lastPeriodTime = "0000";
 }
@@ -142,4 +143,8 @@ void Validate::timeToHourMin(QString time, int& hour, int& min) {
     timeChar[3] = time.at(3);
     hour = timeChar[0].digitValue() * 10 + timeChar[1].digitValue();
     min = timeChar[2].digitValue() * 10 + timeChar[3].digitValue();
+}
+
+bool Validate::validToChangeToPageScheduleTableStruct() {
+    return periodCounter > 0;
 }

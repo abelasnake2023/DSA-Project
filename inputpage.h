@@ -14,6 +14,11 @@
 #include <QTableWidget>
 #include <QTimeEdit>
 #include <QVBoxLayout>
+#include "batchpage.h"
+#include "coursescheduletable.h"
+#include "coursepage.h"
+#include "sectionpage.h"
+
 
 
 class InputPage : public StackedWidgetMain
@@ -24,6 +29,9 @@ protected:
     std::map<std::string, int> pageIndexInputPage;
     CreateSchedulePage* csp;
     DepPage* dp;
+    BatchPage* batchPage;
+    CoursePage* coursePage;
+    SectionPage* sectionPage;
 
 
 public slots:
@@ -31,7 +39,9 @@ public slots:
 
 public:
     InputPage(QStackedWidget* sWidgetMain, QWidget* inputPage, QStackedWidget* sWidgetInputPage, QStackedWidget* sWidgetCreateSchedulePage,
-              QWidget* depPage);
+              QWidget* depPage, DepScheduleTable* depSchTable, QWidget* batchPage, BatchScheduleTable* batchSchTable,
+              QWidget* coursePage, CourseScheduleTable* courseSchTbl,
+              QWidget* sectionPage, SectionScheduleTable* sectionSchTbl);
     virtual ~InputPage();
 
     void allWidgetInCreateSchedulePage(
@@ -47,12 +57,27 @@ public:
         );
     void allWidgetInDepPage(
         QPushButton* btnAPolicy, QPushButton* btnAddDep, QPushButton* btnBatch, QPushButton* btnDelDep, QPushButton* btnDepConstraint,
-        QPushButton* btnEditDep, QPushButton* btnOutputSchedule, QPushButton* btnTeacher, QVBoxLayout* vLayoutContDeps,
-        QPushButton* btnBackDepPage
+        QPushButton* btnEditDep, QPushButton* btnOutputSchedule, QPushButton* btnTeacher, QVBoxLayout* vLayoutContDeps);
+    void allWidgetInBatchPage(
+        QVBoxLayout* batchVLayout, QPushButton* btnAddBatchPage, QPushButton* btnBackBatchPage, QPushButton* btnConstBatchPage,
+        QPushButton* btnEditCourse, QPushButton* btnEditSection, QPushButton* btnRemBatchPage
         );
+    void allWidgetInCoursePage(
+        QVBoxLayout* courseVLayout, QPushButton* btnAddCoursePage, QPushButton* btnBackCoursePage, QPushButton* btnConstCoursePage,
+        QPushButton* btnRemCoursePage
+        );
+    void allWidgetInSectionPage(
+        QPushButton* btnAddSectionPage, QPushButton* btnBackSectionPage, QPushButton* btnConstSectionPage,
+        QPushButton* btnRemSectionPage, QVBoxLayout* vLayoutSectionBoxAdded,
+        QVBoxLayout* vLayoutCourseSectionBox, QPushButton* btnDiscardSecPage
+        );
+
 
     CreateSchedulePage* getCSP();
     DepPage* getDP();
+    BatchPage* getBatchPage();
+    CoursePage* getCoursePage();
+    SectionPage* getSectionPage();
 };
 
 

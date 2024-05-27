@@ -1,8 +1,9 @@
 #ifndef COURSESCHEDULIZERBACKEND_VALIDATE_H
 #define COURSESCHEDULIZERBACKEND_VALIDATE_H
 
-#include <iostream>
+
 #include <QString>
+
 
 class Validate {
 private:
@@ -23,6 +24,8 @@ public:
     QString minTo24Hour(int min);
     QString ridOutSec(QString time);
     void timeToHourMin(QString time, int& hour, int& min); // 0203 to 2 (2 hour) and 3 (3 min)
+
+    bool validToChangeToPageScheduleTableStruct();
 };
 
 

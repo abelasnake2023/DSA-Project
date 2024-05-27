@@ -2,19 +2,20 @@
 #define CREATESCHEDULEPAGE_H
 
 
-#include "BackEnd_C++/Library/DataStructures/Stack/Stack.h"
-using namespace stack;
+
+#include <iostream>
 #include <QStackedWidget>
 #include <QPushButton>
 #include <QLineEdit>
 #include <QLabel>
 #include <QTableWidget>
 #include <QTimeEdit>
+#include <QMessageBox>
 #include <QVBoxLayout>
-#include <QMessagebox>
 #include <map>
 #include <string>
-#include "BackEnd_C++\InputPage\CreateSchedule\Validate.h"
+#include "BackEnd_C++/InputPage/CreateSchedule/Validate.h"
+#include "BackEnd_C++/InputPage/CreateSchedule/scheduletableinfo.h"
 
 
 
@@ -22,7 +23,6 @@ class CreateSchedulePage : public QObject
 {
     Q_OBJECT
 protected:
-    Stack<QTableWidgetItem*>* delQTableWidgetItem;
     QStackedWidget* sWidgetInputPage; // not it's property so no need to delete
     QStackedWidget* sWidgetCreateSchedule;
     std::map<std::string, int> pageIndexInputPage;
@@ -47,13 +47,16 @@ protected:
     QPushButton* btnSaveScheduleTableStruct;
     QTableWidget* tblScheduleTableStruct;
 
+    static QTableWidget* staticTblScheduleTableStruct;
+
 
     // BackEnd_C++ objects
     Validate* val;
+    ScheduleTableInfo* schTblInfo;
+    static ScheduleTableInfo* staticSchTblInfo;
 
     // Function and Constructor that are private
     CreateSchedulePage();
-    void deleteUnusedQTableWidgetItem();
 
 public slots:
     // Sub - Page name scheduleTimeIntervalPage
@@ -83,6 +86,11 @@ public:
         QPushButton* btnBackScheduleTableStruct, QPushButton* btnRemoveScheduleTableStruct,
         QPushButton* btnSaveScheduleTableStruct, QTableWidget* tblScheduleTableStruct, QTableWidget* tblPeriodTimeInterval
         );
+
+    std::string* allValueOfCol2();
+
+    static ScheduleTableInfo* getSchTblInfo();
+    static QTableWidget* getTblScheduleTableStruct();
 };
 
 

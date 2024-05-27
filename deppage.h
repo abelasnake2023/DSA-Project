@@ -8,6 +8,12 @@
 #include <QVBoxLayout>
 #include <map>
 #include <string>
+#include "DepBox.h"
+#include "batchpage.h"
+#include "BackEnd_C++/Library/DataStructures/LinkedList/SingleLinkedList.h"
+#include "createschedulepage.h"
+#include "depscheduletable.h"
+using namespace LinkedList;
 
 
 
@@ -15,6 +21,10 @@
 class DepPage : public QObject
 {
     Q_OBJECT
+
+private:
+    DepPage();
+
 protected:
     QStackedWidget* sWidgetInputPage; // not it's part so should not delete it
     QWidget* depPage;
@@ -31,7 +41,10 @@ protected:
     QPushButton* btnOutputSchedule;
     QPushButton* btnTeacher;
     QVBoxLayout* vLayoutContDeps;
-    QPushButton* btnBackDepPage;
+    DepScheduleTable* depSchTable;
+
+    // All it's departement
+    SingleLinkedList<DepBox*>* allDepBox;
 
 public slots:
     void on_btnAdd();
@@ -42,18 +55,15 @@ public slots:
     void on_btnBatches();
     void on_btnAdminPolicy();
     void on_btnGenSchedule();
-    void on_btnBack();
 
 
 public:
-    DepPage(QStackedWidget* sWidgetInputPage, QWidget* depPage);
+    DepPage(QStackedWidget* sWidgetInputPage, QWidget* depPage, DepScheduleTable* depSchTable);
     virtual ~DepPage();
 
     void setAllItsWidget(
         QPushButton* btnAPolicy, QPushButton* btnAddDep, QPushButton* btnBatch, QPushButton* btnDelDep, QPushButton* btnDepConstraint,
-        QPushButton* btnEditDep, QPushButton* btnOutputSchedule, QPushButton* btnTeacher, QVBoxLayout* vLayoutContDeps,
-        QPushButton* btnBackDepPage
-        );
+        QPushButton* btnEditDep, QPushButton* btnOutputSchedule, QPushButton* btnTeacher, QVBoxLayout* vLayoutContDeps);
 };
 
 #endif

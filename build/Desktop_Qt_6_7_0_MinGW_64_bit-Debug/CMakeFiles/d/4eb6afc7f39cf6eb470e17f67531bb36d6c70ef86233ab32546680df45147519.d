@@ -1,4 +1,5 @@
 Class_Schedulizer_autogen/timestamp: \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/QObject \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QString \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
@@ -169,12 +170,17 @@ Class_Schedulizer_autogen/timestamp: \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QApplication \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QCheckBox \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QFrame \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QHBoxLayout \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QLabel \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QLineEdit \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QMessageBox \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QPushButton \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QSpacerItem \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QStackedWidget \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QTableWidget \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QTableWidgetItem \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QTimeEdit \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QVBoxLayout \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QWidget \
@@ -186,6 +192,7 @@ Class_Schedulizer_autogen/timestamp: \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractspinbox.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qapplication.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qboxlayout.h \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qcheckbox.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qdatetimeedit.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qdialog.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
@@ -596,28 +603,56 @@ Class_Schedulizer_autogen/timestamp: \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/BackTracking/CSPRepeatingPermutation.h \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/InputPage/CreateSchedule/Validate.cpp \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/InputPage/CreateSchedule/Validate.h \
-  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/Stack/NodeStack.cpp \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/InputPage/CreateSchedule/scheduletableinfo.cpp \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/InputPage/CreateSchedule/scheduletableinfo.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/LinkedList/NodeSingleLinkedList.cpp \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/LinkedList/NodeSingleLinkedList.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/LinkedList/SingleLinkedList.cpp \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/LinkedList/SingleLinkedList.h \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/Stack/NodeStack.h \
-  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/Stack/Stack.cpp \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/Stack/Stack.h \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/CMakeLists.txt \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/DepBox.cpp \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/DepBox.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/batchbox.cpp \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/batchbox.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/batchpage.cpp \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/batchpage.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/batchscheduletable.cpp \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/batchscheduletable.h \
   .qtc/package-manager/auto-setup.cmake \
   CMakeFiles/3.27.7/CMakeCXXCompiler.cmake \
   CMakeFiles/3.27.7/CMakeRCCompiler.cmake \
   CMakeFiles/3.27.7/CMakeSystem.cmake \
   Class_Schedulizer_autogen/moc_predefs.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/coursebox.cpp \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/coursebox.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/coursepage.cpp \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/coursepage.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/coursescheduletable.cpp \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/coursescheduletable.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/coursesectionbox.cpp \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/coursesectionbox.h \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/createschedulepage.cpp \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/createschedulepage.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/customqcheckboxforschtable.cpp \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/customqcheckboxforschtable.h \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/deppage.cpp \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/deppage.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/depscheduletable.cpp \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/depscheduletable.h \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/external_resouces.qrc \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/inputpage.cpp \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/inputpage.h \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/loginpage.cpp \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/loginpage.h \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/main.cpp \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/sectionbox.cpp \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/sectionbox.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/sectionpage.cpp \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/sectionpage.h \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/sectionscheduletable.cpp \
+  C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/sectionscheduletable.h \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/signuppage.cpp \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/signuppage.h \
   C:/Users/user/Documents/DSA/DSA\ Code/DSA\ Project/Class_Schedulizer/stackedwidgetmain.cpp \

@@ -274,6 +274,24 @@
 			null
 		],
 		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/BackEnd_C++/InputPage/CreateSchedule/scheduletableinfo.h",
+			"MU",
+			"7MA24ACPOK/moc_scheduletableinfo.cpp",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/LinkedList/NodeSingleLinkedList.h",
+			"MU",
+			"MZZCHSR6LX/moc_NodeSingleLinkedList.cpp",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/LinkedList/SingleLinkedList.h",
+			"MU",
+			"MZZCHSR6LX/moc_SingleLinkedList.cpp",
+			null
+		],
+		[
 			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/BackEnd_C++/Library/DataStructures/Stack/NodeStack.h",
 			"MU",
 			"XFI6PRU5SX/moc_NodeStack.cpp",
@@ -292,15 +310,69 @@
 			null
 		],
 		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/batchbox.h",
+			"MU",
+			"EWIEGA46WW/moc_batchbox.cpp",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/batchpage.h",
+			"MU",
+			"EWIEGA46WW/moc_batchpage.cpp",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/batchscheduletable.h",
+			"MU",
+			"EWIEGA46WW/moc_batchscheduletable.cpp",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/coursebox.h",
+			"MU",
+			"EWIEGA46WW/moc_coursebox.cpp",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/coursepage.h",
+			"MU",
+			"EWIEGA46WW/moc_coursepage.cpp",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/coursescheduletable.h",
+			"MU",
+			"EWIEGA46WW/moc_coursescheduletable.cpp",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/coursesectionbox.h",
+			"MU",
+			"EWIEGA46WW/moc_coursesectionbox.cpp",
+			null
+		],
+		[
 			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/createschedulepage.h",
 			"MU",
 			"EWIEGA46WW/moc_createschedulepage.cpp",
 			null
 		],
 		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/customqcheckboxforschtable.h",
+			"MU",
+			"EWIEGA46WW/moc_customqcheckboxforschtable.cpp",
+			null
+		],
+		[
 			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/deppage.h",
 			"MU",
 			"EWIEGA46WW/moc_deppage.cpp",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/depscheduletable.h",
+			"MU",
+			"EWIEGA46WW/moc_depscheduletable.cpp",
 			null
 		],
 		[
@@ -313,6 +385,24 @@
 			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/loginpage.h",
 			"MU",
 			"EWIEGA46WW/moc_loginpage.cpp",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/sectionbox.h",
+			"MU",
+			"EWIEGA46WW/moc_sectionbox.cpp",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/sectionpage.h",
+			"MU",
+			"EWIEGA46WW/moc_sectionpage.cpp",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/sectionscheduletable.h",
+			"MU",
+			"EWIEGA46WW/moc_sectionscheduletable.cpp",
 			null
 		],
 		[
@@ -417,7 +507,47 @@
 			null
 		],
 		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/BackEnd_C++/InputPage/CreateSchedule/scheduletableinfo.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/DepBox.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/batchbox.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/batchpage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/batchscheduletable.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/coursebox.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/coursepage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/coursescheduletable.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/coursesectionbox.cpp",
 			"MU",
 			null
 		],
@@ -427,7 +557,17 @@
 			null
 		],
 		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/customqcheckboxforschtable.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/deppage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/depscheduletable.cpp",
 			"MU",
 			null
 		],
@@ -443,6 +583,21 @@
 		],
 		[
 			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/sectionbox.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/sectionpage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/user/Documents/DSA/DSA Code/DSA Project/Class_Schedulizer/sectionscheduletable.cpp",
 			"MU",
 			null
 		],
